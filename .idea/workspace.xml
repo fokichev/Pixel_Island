@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="449ef448-a806-4847-abef-2e053e0eb2c5" name="Default Changelist" comment="" />
+    <list default="true" id="449ef448-a806-4847-abef-2e053e0eb2c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/build/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view_quests/quest_view.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/precache-manifest.093f676afc474de9fbec04a9e6614cc0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/css/main.d1b05096.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/css/main.d1b05096.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/2.5dcd050f.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/2.5dcd050f.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/2.5dcd050f.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/main.3ab15f40.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/main.3ab15f40.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/media/logo.5d5d9eef.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/precache-manifest.093f676afc474de9fbec04a9e6614cc0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/css/main.d1b05096.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/css/main.d1b05096.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/js/2.5dcd050f.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/js/2.5dcd050f.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/js/2.5dcd050f.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/js/main.3ab15f40.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/js/main.3ab15f40.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/media/logo.5d5d9eef.svg" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +51,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\fokic\WebstormProjects\cordovaReactProject\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -24,12 +65,16 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1YUQGrfQdLn3lSUcKcGRblKddRP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.phonegap.settings.workdir" value="$PROJECT_DIR$" />
@@ -42,6 +87,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fokic\WebstormProjects\cordovaReactProject\src\img" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="PhoneGap/Cordova run" type="PhoneGap" factoryName="PhoneGap/Cordova">
@@ -68,12 +118,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582994600197</updated>
-      <workItem from="1582994607402" duration="8548000" />
+      <workItem from="1582994607402" duration="13791000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" width="816" height="729" key="#Intentions" timestamp="1583156863414">
@@ -84,26 +137,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582997587137" />
+    <state x="711" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583245665137">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="711" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583245665137" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1582994836466">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582994836466" />
-    <state width="1899" height="268" key="GridCell.Tab.0.bottom" timestamp="1583172216367">
+    <state width="1899" height="268" key="GridCell.Tab.0.bottom" timestamp="1583249133800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583172216367" />
-    <state width="1899" height="268" key="GridCell.Tab.0.center" timestamp="1583172216367">
+    <state width="1899" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583249133800" />
+    <state width="1899" height="268" key="GridCell.Tab.0.center" timestamp="1583249133800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583172216367" />
-    <state width="1899" height="268" key="GridCell.Tab.0.left" timestamp="1583172216367">
+    <state width="1899" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583249133800" />
+    <state width="1899" height="268" key="GridCell.Tab.0.left" timestamp="1583249133800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583172216367" />
-    <state width="1899" height="268" key="GridCell.Tab.0.right" timestamp="1583172216367">
+    <state width="1899" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583249133800" />
+    <state width="1899" height="268" key="GridCell.Tab.0.right" timestamp="1583249133800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583172216367" />
+    <state width="1899" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583249133800" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1583172137669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
