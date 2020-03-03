@@ -6,7 +6,7 @@ html{
 
 }
 
-.quest_view{
+#quest_view{
   border: 30px solid transparent;
   border-image: url(img/UI/todo-border.png) 30 stretch;
   background-color: #D8A26F;
