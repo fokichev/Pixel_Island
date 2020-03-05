@@ -4,7 +4,7 @@ import '../App.css';
 class QuestView extends Component {
     render(){
         return (
-            <div id='quest_view'>hi</div>
+            <div id={"questView"}>hello</div>
         )
     }
 }

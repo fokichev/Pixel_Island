@@ -1,17 +1,12 @@
-html, body, .App, .App>div{
+html, body, #root, .App, .App>div, .standardView, #questView{
   height: 100%;
 }
 
-html{
-
-}
-
-#quest_view{
+#questView{
   border: 30px solid transparent;
   border-image: url(img/UI/todo-border.png) 30 stretch;
   background-color: #D8A26F;
 }
-
 
 /*
 .App {
