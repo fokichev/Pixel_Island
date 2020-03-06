@@ -1,6 +1,5 @@
 html, body, #root, .App, .App>div, .standardView{
   height: 100%;
-   background-color: #d8a26f;
 }
 
 #questView{
