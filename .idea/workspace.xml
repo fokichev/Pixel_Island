@@ -2,28 +2,91 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="449ef448-a806-4847-abef-2e053e0eb2c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/build/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/precache-manifest.fd8e98905f37c5c54140204a3d90dda3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/static/css/main.1edc51bf.chunk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/static/css/main.1edc51bf.chunk.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/static/js/2.0a16e0cc.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/static/js/2.0a16e0cc.chunk.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/static/js/2.0a16e0cc.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/static/js/main.108ea452.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/static/js/main.108ea452.chunk.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/perfect-scrollbar/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/perfect-scrollbar/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/perfect-scrollbar/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/perfect-scrollbar/css/perfect-scrollbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/perfect-scrollbar/dist/perfect-scrollbar.common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/perfect-scrollbar/dist/perfect-scrollbar.common.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/perfect-scrollbar/dist/perfect-scrollbar.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/perfect-scrollbar/dist/perfect-scrollbar.esm.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/perfect-scrollbar/dist/perfect-scrollbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/perfect-scrollbar/dist/perfect-scrollbar.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/perfect-scrollbar/dist/perfect-scrollbar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/perfect-scrollbar/dist/perfect-scrollbar.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/perfect-scrollbar/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/perfect-scrollbar/src/handlers/click-rail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/perfect-scrollbar/src/handlers/drag-thumb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/perfect-scrollbar/src/handlers/keyboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/perfect-scrollbar/src/handlers/mouse-wheel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/perfect-scrollbar/src/handlers/touch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/perfect-scrollbar/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/perfect-scrollbar/src/lib/class-names.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/perfect-scrollbar/src/lib/css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/perfect-scrollbar/src/lib/dom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/perfect-scrollbar/src/lib/event-manager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/perfect-scrollbar/src/lib/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/perfect-scrollbar/src/process-scroll-diff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/perfect-scrollbar/src/update-geometry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/perfect-scrollbar/types/perfect-scrollbar.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-perfect-scrollbar/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-perfect-scrollbar/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-perfect-scrollbar/dist/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-perfect-scrollbar/dist/css/styles.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-perfect-scrollbar/dist/css/styles.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-perfect-scrollbar/dist/css/styles.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-perfect-scrollbar/dist/react-perfect-scrollbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-perfect-scrollbar/dist/react-perfect-scrollbar.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-perfect-scrollbar/dist/react-perfect-scrollbar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-perfect-scrollbar/dist/react-perfect-scrollbar.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-perfect-scrollbar/lib/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-perfect-scrollbar/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-perfect-scrollbar/lib/scrollbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-perfect-scrollbar/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-perfect-scrollbar/src/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-perfect-scrollbar/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-perfect-scrollbar/src/scrollbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-perfect-scrollbar/src/styles.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/precache-manifest.f25fe53f2325ff0512d9937548b8ddbb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/precache-manifest.53c3e280afb345c97709907412cd549f.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/2.5ae3c40a.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/2.5ae3c40a.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/2.5ae3c40a.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/main.4ffb38e5.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/main.4ffb38e5.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/css/main.f5ae4f0d.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/css/main.f5ae4f0d.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/2.d2c6008c.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/2.d2c6008c.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/2.d2c6008c.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/main.44c32a80.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/main.44c32a80.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view_quests/QuestView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view_quests/QuestView.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/precache-manifest.f25fe53f2325ff0512d9937548b8ddbb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/precache-manifest.53c3e280afb345c97709907412cd549f.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/www/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/static/js/2.5ae3c40a.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/static/js/2.5ae3c40a.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/static/js/2.5ae3c40a.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/static/js/main.4ffb38e5.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/static/js/main.4ffb38e5.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/css/main.f5ae4f0d.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/css/main.f5ae4f0d.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/js/2.d2c6008c.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/js/2.d2c6008c.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/js/2.d2c6008c.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/js/main.44c32a80.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/js/main.44c32a80.chunk.js.map" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +173,7 @@
       <updated>1582994600197</updated>
       <workItem from="1582994607402" duration="18491000" />
       <workItem from="1583341760637" duration="6065000" />
-      <workItem from="1583409208176" duration="18591000" />
+      <workItem from="1583409208176" duration="19444000" />
     </task>
     <servers />
   </component>
@@ -145,22 +208,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582994836466" />
-    <state width="1899" height="305" key="GridCell.Tab.0.bottom" timestamp="1583511936120">
+    <state width="1899" height="305" key="GridCell.Tab.0.bottom" timestamp="1583512822235">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583511936120" />
-    <state width="1899" height="305" key="GridCell.Tab.0.center" timestamp="1583511936119">
+    <state width="1899" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583512822235" />
+    <state width="1899" height="305" key="GridCell.Tab.0.center" timestamp="1583512822235">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="305" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583511936119" />
-    <state width="1899" height="305" key="GridCell.Tab.0.left" timestamp="1583511936119">
+    <state width="1899" height="305" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583512822235" />
+    <state width="1899" height="305" key="GridCell.Tab.0.left" timestamp="1583512822235">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="305" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583511936119" />
-    <state width="1899" height="305" key="GridCell.Tab.0.right" timestamp="1583511936119">
+    <state width="1899" height="305" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583512822235" />
+    <state width="1899" height="305" key="GridCell.Tab.0.right" timestamp="1583512822235">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="305" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583511936119" />
+    <state width="1899" height="305" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583512822235" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1583412813397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
