@@ -7,18 +7,26 @@ class QuestView extends Component {
         super(props);
         //delete if not needed
     }
-    
+
     render(){
         return (
             <div className="standardView">
-                <div id="questView">hello</div>
+                <div id="questView">
+
+
+
+
+
+
+
+                </div>
             </div>
 
         );
     }
 
     componentDidMount(){
-        let body_height = "height: " + (parseInt(document.body.scrollHeight) - 60) + "px";
+        let body_height = "height: " + (parseInt(document.body.scrollHeight) - (2*parseInt(getComputedStyle(document.getElementById('questView'),null).getPropertyValue('border-width')))) + "px";
         document.getElementById("questView").setAttribute("style", body_height);
     }
 }
