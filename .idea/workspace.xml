@@ -2,29 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="449ef448-a806-4847-abef-2e053e0eb2c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/img/UI/splash_screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/UI/icon/icon_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/UI/icon/icon_fg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/UI/icon/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/UI/icon/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/UI/icon/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/UI/icon/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/UI/icon/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/android.json" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/android.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/cordova_plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/cordova_plugins.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/drawable-land-hdpi/screen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/drawable-land-ldpi/screen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/drawable-land-mdpi/screen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/drawable-land-xhdpi/screen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/drawable-land-xxhdpi/screen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/drawable-land-xxxhdpi/screen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/drawable-port-hdpi/screen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/drawable-port-ldpi/screen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/drawable-port-mdpi/screen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/drawable-port-xhdpi/screen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/drawable-port-xxhdpi/screen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/drawable-port-xxxhdpi/screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-hdpi-v26/ic_launcher_background.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-hdpi-v26/ic_launcher_background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-hdpi-v26/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-hdpi-v26/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-ldpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-ldpi-v26/ic_launcher_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-ldpi-v26/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-ldpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-mdpi-v26/ic_launcher_background.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-mdpi-v26/ic_launcher_background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-mdpi-v26/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-mdpi-v26/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-xhdpi-v26/ic_launcher_background.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-xhdpi-v26/ic_launcher_background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-xhdpi-v26/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-xhdpi-v26/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-xxhdpi-v26/ic_launcher_background.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-xxhdpi-v26/ic_launcher_background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-xxhdpi-v26/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-xxhdpi-v26/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-xxxhdpi-v26/ic_launcher_background.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-xxxhdpi-v26/ic_launcher_background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-xxxhdpi-v26/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-xxxhdpi-v26/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/res/values/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/xml/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/res/xml/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/platform_www/cordova_plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/platform_www/cordova_plugins.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/android.json" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/android.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/fetch.json" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/fetch.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +118,7 @@
       <updated>1582994600197</updated>
       <workItem from="1582994607402" duration="18491000" />
       <workItem from="1583341760637" duration="6065000" />
-      <workItem from="1583409208176" duration="13820000" />
+      <workItem from="1583409208176" duration="15906000" />
     </task>
     <servers />
   </component>
@@ -146,22 +153,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582994836466" />
-    <state width="1899" height="305" key="GridCell.Tab.0.bottom" timestamp="1583507147539">
+    <state width="1899" height="305" key="GridCell.Tab.0.bottom" timestamp="1583509256412">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583507147539" />
-    <state width="1899" height="305" key="GridCell.Tab.0.center" timestamp="1583507147539">
+    <state width="1899" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583509256412" />
+    <state width="1899" height="305" key="GridCell.Tab.0.center" timestamp="1583509256412">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="305" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583507147539" />
-    <state width="1899" height="305" key="GridCell.Tab.0.left" timestamp="1583507147539">
+    <state width="1899" height="305" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583509256412" />
+    <state width="1899" height="305" key="GridCell.Tab.0.left" timestamp="1583509256412">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="305" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583507147539" />
-    <state width="1899" height="305" key="GridCell.Tab.0.right" timestamp="1583507147539">
+    <state width="1899" height="305" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583509256412" />
+    <state width="1899" height="305" key="GridCell.Tab.0.right" timestamp="1583509256412">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="305" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583507147539" />
+    <state width="1899" height="305" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583509256412" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1583412813397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

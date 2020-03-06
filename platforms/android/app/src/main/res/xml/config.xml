@@ -10,12 +10,12 @@
     </feature>
     <hook src="scripts/prebuild.js" type="before_prepare" />
     <splash src="src/img/UI/splash_screen.png" />
-    <name>HelloCordova</name>
+    <name>Pixel Island</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        A gamified to-do list. Made by Polina Fokicheva.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="fokichevap@gmail.com" href="http://cordova.io">
+        Polina Fokicheva
     </author>
     <content src="index.html" />
     <access origin="*" />
@@ -25,6 +25,11 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <icon background="src/img/UI/icon/icon_bg.png" density="hdpi" foreground="src/img/UI/icon/mipmap-hdpi/ic_launcher.png" />
+    <icon background="src/img/UI/icon/icon_bg.png" density="mdpi" foreground="src/img/UI/icon/mipmap-mdpi/ic_launcher.png" />
+    <icon background="src/img/UI/icon/icon_bg.png" density="xhdpi" foreground="src/img/UI/icon/mipmap-xhdpi/ic_launcher.png" />
+    <icon background="src/img/UI/icon/icon_bg.png" density="xxhdpi" foreground="src/img/UI/icon/mipmap-xxhdpi/ic_launcher.png" />
+    <icon background="src/img/UI/icon/icon_bg.png" density="xxxhdpi" foreground="src/img/UI/icon/mipmap-xxxhdpi/ic_launcher.png" />
     <allow-intent href="market:*" />
     <preference name="loglevel" value="DEBUG" />
     <preference name="SplashMaintainAspectRatio" value="true" />
