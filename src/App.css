@@ -8,6 +8,10 @@ html, body, #root, .App, .App>div, .standardView{
   background-color: #D8A26F;
 }
 
+#mapView{
+  background-color: aquamarine;
+}
+
 /*
 .App {
   text-align: center;

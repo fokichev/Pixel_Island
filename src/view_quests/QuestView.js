@@ -1,4 +1,7 @@
 import React, {Component} from 'react';
+import {
+    Link
+} from "react-router-dom";
 import '../App.css';
 
 class QuestView extends Component {
@@ -11,13 +14,9 @@ class QuestView extends Component {
         return (
             <div className="standardView">
                 <div id="questView">
-
-
-
-
-
-
-
+                    <div>
+                        <Link to="/map">Map</Link>
+                    </div>
                 </div>
             </div>
 

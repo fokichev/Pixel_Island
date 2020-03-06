@@ -1,4 +1,7 @@
 import React, {Component} from 'react';
+import {
+    Link
+} from "react-router-dom";
 import '../App.css';
 
 class MapView extends Component {
@@ -10,7 +13,9 @@ class MapView extends Component {
     render(){
         return (
             <div className="standardView">
-                map view
+                <div id="mapView">
+                    <Link to="/">Quests</Link>
+                </div>
             </div>
 
         );
@@ -18,7 +23,8 @@ class MapView extends Component {
 
     componentDidMount(){
         //let body_height = "height: " + (parseInt(document.body.scrollHeight) - (2*parseInt(getComputedStyle(document.getElementById('questView'),null).getPropertyValue('border-width')))) + "px";
-        //document.getElementById("questView").setAttribute("style", body_height);
+        let body_height = "height: " + parseInt(document.body.scrollHeight) + "px";
+        document.getElementById("mapView").setAttribute("style", body_height);
     }
 
 }

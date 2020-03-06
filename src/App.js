@@ -15,11 +15,6 @@ function App() {
     return (
         <div>
             <Router>
-                <ul>
-                    <li><Link to="/">Quests</Link></li>
-                    <li><Link to="/map">Map</Link></li>
-                </ul>
-
                 <Switch>
                     <Route path="/map" component={MapView}/>
                     <Route path="/" component={QuestView}/>
