@@ -1,5 +1,10 @@
 import React, {Component} from 'react';
+
+//import files
 import '../App.css';
+
+//import images
+import quests_text from "../img/UI/quests_text.png";
 
 class QuestView extends Component {
     constructor(props){
@@ -14,7 +19,8 @@ class QuestView extends Component {
         return (
             <div className="standardView">
                 <div id="questView">
-                    <div id="questCards" style={{height: this.initial_height*0.75 + "px", overflow: "scroll"}}>
+                    <img src={quests_text} style={{height: "7%"}}/>
+                    <div id="questCards" style={{height: this.initial_height*0.7 + "px", overflow: "scroll"}}>
                             {/*<Link to="/map">Map</Link>*/}
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed velit dignissim sodales ut eu sem. Orci nulla pellentesque dignissim enim sit amet venenatis urna. Volutpat est velit egestas dui id ornare arcu odio. Eleifend donec pretium vulputate sapien nec sagittis. Nulla pharetra diam sit amet nisl. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Sit amet venenatis urna cursus eget nunc scelerisque. Dolor morbi non arcu risus quis. Nibh mauris cursus mattis molestie a iaculis at erat.
 

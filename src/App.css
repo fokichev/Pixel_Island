@@ -6,6 +6,7 @@ html, body, #root, .App, .App>div, .standardView{
   border: 30px solid transparent;
   border-image: url(img/UI/todo-border.png) 30 stretch;
   background-color: #D8A26F;
+  text-align: center;
 }
 
 #mapView{
