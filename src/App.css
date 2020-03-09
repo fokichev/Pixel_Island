@@ -3,7 +3,7 @@ html, body, #root, .App, .App>div, .standardView{
 }
 
 #questView{
-  border: 12px solid transparent;
+  border: 8px solid transparent;
   border-image: url(img/UI/todo-border.png) 32 stretch;
   background-color: #D8A26F;
   text-align: center;
@@ -12,7 +12,15 @@ html, body, #root, .App, .App>div, .standardView{
 
 .questCard{
   background-color: blue;
-  padding-bottom: 3px;
+}
+
+#questToolbar{
+  /*background-color: #8F5F32;*/
+  background-color: blue;
+}
+
+.btnToolbar{
+  /*height: 20em;*/
 }
 
 #mapView{

@@ -4,6 +4,20 @@ import '../App.css';
 import QuestCard from "./QuestCard";
 //import files
 import quests_text from "../img/UI/quests_text.png";
+//buttons
+import btn_ext from "../img/UI/buttons/btn_ext.png";
+import btn_ext_a from "../img/UI/buttons/btn_ext_a.png";
+import btn_inv from "../img/UI/buttons/btn_inv.png";
+import btn_inv_a from "../img/UI/buttons/btn_inv_a.png";
+import btn_place from "../img/UI/buttons/btn_place.png";
+import btn_plus from "../img/UI/buttons/btn_plus.png";
+import btn_quests from "../img/UI/buttons/btn_quests.png";
+import btn_quests_a from "../img/UI/buttons/btn_quests_a.png";
+import btn_shop from "../img/UI/buttons/btn_shop.png";
+import btn_shop_a from "../img/UI/buttons/btn_shop_a.png";
+import btn_world from "../img/UI/buttons/btn_world.png";
+import btn_world_a from "../img/UI/buttons/btn_world_a.png";
+
 
 class QuestView extends Component {
     constructor(props){
@@ -18,8 +32,8 @@ class QuestView extends Component {
         return (
             <div>
                 <div id="questView">
-                    <img src={quests_text} style={{height: "7%"}}/>
-                    <div style={{height: this.initial_height*0.7 + "px", overflow: "scroll"}}>
+                    <img id="questTextImg" src={quests_text} style={{height: "7%"}}/>
+                    <div id="questCards" style={{height: this.initial_height*0.7 + "px", overflow: "scroll"}}>
                         <QuestCard/>
                         <QuestCard/>
                         {/*<Link to="/map">Map</Link>*/}
@@ -44,6 +58,9 @@ class QuestView extends Component {
                             Imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis. Neque ornare aenean euismod elementum nisi quis eleifend. Vitae nunc sed velit dignissim. Viverra orci sagittis eu volutpat. Lorem donec massa sapien faucibus et. Odio ut sem nulla pharetra diam sit amet nisl. Turpis cursus in hac habitasse platea dictumst. Consequat mauris nunc congue nisi vitae suscipit. Viverra accumsan in nisl nisi scelerisque eu ultrices vitae. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Fermentum odio eu feugiat pretium nibh. Sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis. Tellus at urna condimentum mattis pellentesque id nibh. Ultrices eros in cursus turpis massa tincidunt.
                         </p>
                     </div>
+                    <div id="questToolbar">
+                        <img class="btnToolbar" src={btn_world} />
+                    </div>
                 </div>
             </div>
 
@@ -55,10 +72,16 @@ class QuestView extends Component {
     }
 
     componentDidMount(){
-        let body_height = "height: " + (parseInt(document.body.scrollHeight) - (2*parseInt(getComputedStyle(document.getElementById('questView'),null).getPropertyValue('border-width')))) + "px";
-        document.getElementById("questView").setAttribute("style", body_height);
-        // let cards_style = "height: " + parseInt(body_height)*0.7 + "px, overflow: scroll";
-        // document.getElementById("questCards").setAttribute("style", cards_style);
+        //set questView height
+        let body_height = parseInt(document.body.scrollHeight) - (2*parseInt(getComputedStyle(document.getElementById('questView'),null).getPropertyValue('border-width')));
+        document.getElementById("questView").setAttribute("style", ("height: " + body_height + "px"));
+        //button height
+        var toolbar_buttons = document.getElementsByClassName("btnToolbar");
+        for (var i = 0; i < toolbar_buttons.length; i++){
+            toolbar_buttons[i].setAttribute("style", ("height: " + body_height*0.14 + "px"));
+        }
+
+
     }
 }
 
