@@ -5,7 +5,6 @@ import {
 import '../App.css';
 //import components
 import QuestCard from "./QuestCard";
-import Button from "../Button";
 //import files
 import quests_text from "../img/UI/quests_text.png";
 

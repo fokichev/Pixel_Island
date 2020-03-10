@@ -15,8 +15,8 @@ function App() {
     // constructor(props){}
     return (
         <div>
-            <NavigationView/>
             <Router>
+                <NavigationView/>
                 <Switch>
                     <Route path="/map" component={MapView}/>
                     <Route path="/" component={QuestView}/>

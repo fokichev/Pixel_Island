@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
+import {Link, withRouter} from "react-router-dom";
 
 class ButtonWorld extends Component {
     constructor(props) {
@@ -10,7 +11,6 @@ class ButtonWorld extends Component {
     btn_height;
 
     render(){
-        //alert(this.props.btn_size);
         this.btn_height = this.props.init_height;
         if(this.props.btn_size == "l"){
             this.btn_height = this.btn_height*0.12;
@@ -25,15 +25,25 @@ class ButtonWorld extends Component {
             alert("btn error");
         }
         return (
-            <img src={this.props.btn_src} class="btn" id="btn" style={{height: this.btn_height + "px"}}/>
-
+            // <Link to={this.props.btn_action}>
+            <img src={this.props.btn_src} class="btn" id="btn" style={{height: this.btn_height + "px"}} onClick={() => this.btnPress()}/>
+            //</Link>
 
         )
     }
 
-    onClick(){
+    btnPress(){
+        //alert("test");
+        if(this.props.btn_action.charAt(0) === "/") {
+            //alert(this.props.btn_action);
+            //return <Redirect to={this.props.btn_action}/>;
+            //this.setState({redirect: this.props.btn_action});
+            //this.props.redirect();
+            this.props.history.push(this.props.btn_action);
 
+        }
     }
+
 }
 
-export default ButtonWorld;
+export default withRouter(ButtonWorld);
