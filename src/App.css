@@ -5,18 +5,19 @@ html, body, #root, .App, .App>div, .standardView{
 #questView{
   border: 8px solid transparent;
   border-image: url(img/UI/todo-border.png) 32 stretch;
-  background-color: #D8A26F;
+  background-color: #8F5F32;
   text-align: center;
 }
 
 
 .questCard{
   background-color: blue;
+  margin: 10px;
 }
 
 #questToolbar{
   /*background-color: #8F5F32;*/
-  background-color: blue;
+
 }
 
 .btnToolbar{

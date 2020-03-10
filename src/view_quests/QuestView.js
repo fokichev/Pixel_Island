@@ -30,9 +30,9 @@ class QuestView extends Component {
 
     render(){
         return (
-            <div>
-                <div id="questView">
-                    <img id="questTextImg" src={quests_text} style={{height: "7%"}}/>
+            <div id="questView">
+                <div style={{backgroundColor: "#D8A26F"}}>
+                    <img id="questTextImg" src={quests_text} style={{height: "7%", margin: "10px"}}/>
                     <div id="questCards" style={{height: this.initial_height*0.7 + "px", overflow: "scroll"}}>
                         <QuestCard/>
                         <QuestCard/>
@@ -58,9 +58,9 @@ class QuestView extends Component {
                             Imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis. Neque ornare aenean euismod elementum nisi quis eleifend. Vitae nunc sed velit dignissim. Viverra orci sagittis eu volutpat. Lorem donec massa sapien faucibus et. Odio ut sem nulla pharetra diam sit amet nisl. Turpis cursus in hac habitasse platea dictumst. Consequat mauris nunc congue nisi vitae suscipit. Viverra accumsan in nisl nisi scelerisque eu ultrices vitae. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Fermentum odio eu feugiat pretium nibh. Sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis. Tellus at urna condimentum mattis pellentesque id nibh. Ultrices eros in cursus turpis massa tincidunt.
                         </p>
                     </div>
-                    <div id="questToolbar">
-                        <img class="btnToolbar" src={btn_world} />
-                    </div>
+                </div>
+                <div id="questToolbar">
+                    <img className="btnToolbar" src={btn_world}/>
                 </div>
             </div>
 
