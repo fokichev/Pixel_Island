@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import '../App.css';
 //import components
 import QuestCard from "./QuestCard";
+import Button from "../Button";
 //import files
 import quests_text from "../img/UI/quests_text.png";
 //buttons
@@ -60,15 +61,21 @@ class QuestView extends Component {
                     </div>
                 </div>
                 <div id="questToolbar">
-                    <table id={"toolbarTable"}>
-                        <tr>
-                            <td><img src={btn_world} className="btnToolbar"/></td>
-                            <td><img src={btn_inv} className="btnToolbar"/></td>
-                            <td><img src={btn_shop} className="btnToolbar"/></td>
-                            <td><img src={btn_ext} className="smallBtnToolbar"/></td>
-                            <td><img src={btn_plus} className="mediumBtnToolbar"/></td>
-                        </tr>
-                    </table>
+                    <Button init_height={this.initial_height} btn_src={btn_world} a_btn_src={btn_world_a} link_path="/map"/>
+
+
+
+
+                    {/*<table id={"toolbarTable"}>*/}
+                    {/*    <tr>*/}
+                    {/*        <td><img src={btn_world} className="btnToolbar"/></td>*/}
+                    {/*        <td><img src={btn_inv} className="btnToolbar"/></td>*/}
+                    {/*        <td><img src={btn_shop} className="btnToolbar"/></td>*/}
+                    {/*        <td><img src={btn_ext} className="smallBtnToolbar"/></td>*/}
+                    {/*        <td><img src={btn_plus} className="mediumBtnToolbar"/></td>*/}
+                    {/*    </tr>*/}
+                    {/*</table>*/}
+
                 </div>
             </div>
 
