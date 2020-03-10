@@ -2,14 +2,22 @@ html, body, #root, .App, .App>div, .standardView{
   height: 100%;
 }
 
+.btn{
+  margin: 3px;
+}
+
 #navDiv{
   width: 100%;
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
   position: absolute;
   text-align: center;
   bottom: 0;
-  background-color: transparent;
   z-index: 2;
 }
+
 
 #questView{
   border: 8px solid transparent;
@@ -22,19 +30,6 @@ html, body, #root, .App, .App>div, .standardView{
 .questCard{
   background-color: blue;
   margin: 10px;
-}
-
-#questToolbar {
-  /*background-color: #8F5F32;*/
-  text-align: center;
-}
-
-#toolbarTable{
-
-}
-
-.btnToolbar{
-  /*height: 20em;*/
 }
 
 #mapView{

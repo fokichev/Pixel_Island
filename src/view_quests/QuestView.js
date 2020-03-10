@@ -8,20 +8,6 @@ import QuestCard from "./QuestCard";
 import Button from "../Button";
 //import files
 import quests_text from "../img/UI/quests_text.png";
-//buttons
-import btn_ext from "../img/UI/buttons/btn_ext.png";
-import btn_ext_a from "../img/UI/buttons/btn_ext_a.png";
-import btn_inv from "../img/UI/buttons/btn_inv.png";
-import btn_inv_a from "../img/UI/buttons/btn_inv_a.png";
-import btn_place from "../img/UI/buttons/btn_place.png";
-import btn_plus from "../img/UI/buttons/btn_plus.png";
-import btn_quests from "../img/UI/buttons/btn_quests.png";
-import btn_quests_a from "../img/UI/buttons/btn_quests_a.png";
-import btn_shop from "../img/UI/buttons/btn_shop.png";
-import btn_shop_a from "../img/UI/buttons/btn_shop_a.png";
-import btn_world from "../img/UI/buttons/btn_world.png";
-import btn_world_a from "../img/UI/buttons/btn_world_a.png";
-
 
 class QuestView extends Component {
     constructor(props){
@@ -38,7 +24,7 @@ class QuestView extends Component {
                 <div style={{backgroundColor: "#D8A26F"}}>
                     <img id="questTextImg" src={quests_text} style={{height: "7%", margin: "10px"}}/>
                     <Link to="/map">Map</Link>
-                    <div id="questCards" style={{height: this.initial_height*0.7 + "px", overflow: "scroll"}}>
+                    <div id="questCards" style={{height: this.initial_height*0.72 + "px", overflow: "scroll"}}>
                         <QuestCard/>
                         <QuestCard/>
                         {/*<Link to="/map">Map</Link>*/}
@@ -64,23 +50,6 @@ class QuestView extends Component {
                         </p>
                     </div>
                 </div>
-                <div id="questToolbar">
-                    <Button init_height={this.initial_height} btn_src={btn_world} a_btn_src={btn_world_a} link_path="/map"/>
-
-
-
-
-                    {/*<table id={"toolbarTable"}>*/}
-                    {/*    <tr>*/}
-                    {/*        <td><img src={btn_world} className="btnToolbar"/></td>*/}
-                    {/*        <td><img src={btn_inv} className="btnToolbar"/></td>*/}
-                    {/*        <td><img src={btn_shop} className="btnToolbar"/></td>*/}
-                    {/*        <td><img src={btn_ext} className="smallBtnToolbar"/></td>*/}
-                    {/*        <td><img src={btn_plus} className="mediumBtnToolbar"/></td>*/}
-                    {/*    </tr>*/}
-                    {/*</table>*/}
-
-                </div>
             </div>
 
         );
@@ -95,26 +64,6 @@ class QuestView extends Component {
         //set questView height
         let body_height = parseInt(document.body.scrollHeight) - (2*parseInt(getComputedStyle(document.getElementById('questView'),null).getPropertyValue('border-width')));
         document.getElementById("questView").setAttribute("style", ("height: " + body_height + "px"));
-
-        //button height
-        let toolbar_buttons = document.getElementsByClassName("btnToolbar");
-        for (i = 0; i < toolbar_buttons.length; i++){
-            toolbar_buttons[i].setAttribute("style", ("height: " + body_height*0.13 + "px"));
-        }
-
-        //medium button height
-        let m_toolbar_buttons = document.getElementsByClassName("mediumBtnToolbar");
-        for (i = 0; i < m_toolbar_buttons.length; i++){
-            m_toolbar_buttons[i].setAttribute("style", ("height: " + body_height*0.07 + "px"));
-        }
-
-        //small button height
-        let s_toolbar_buttons = document.getElementsByClassName("smallBtnToolbar");
-        for (i = 0; i < s_toolbar_buttons.length; i++){
-            s_toolbar_buttons[i].setAttribute("style", ("height: " + body_height*0.02 + "px"));
-        }
-
-
     }
 }
 
