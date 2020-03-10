@@ -26,22 +26,18 @@ class ButtonWorld extends Component {
         }
         return (
             // <Link to={this.props.btn_action}>
-            <img src={this.props.btn_src} class="btn" id="btn" style={{height: this.btn_height + "px"}} onClick={() => this.btnPress()}/>
+            <img src={this.props.btn_src} class="btn" id={this.props.btn_id} style={{height: this.btn_height + "px"}} onClick={() => this.btnPress()}/>
             //</Link>
 
         )
     }
 
     btnPress(){
-        //alert("test");
         if(this.props.btn_action.charAt(0) === "/") {
-            //alert(this.props.btn_action);
-            //return <Redirect to={this.props.btn_action}/>;
-            //this.setState({redirect: this.props.btn_action});
-            //this.props.redirect();
+            //change current view
             this.props.history.push(this.props.btn_action);
-
         }
+        document.getElementById(this.props.btn_id).setAttribute("src", this.props.a_btn_src);
     }
 
 }

@@ -20,17 +20,21 @@ import btn_world_a from "./img/UI/buttons/btn_world_a.png";
 class NavigationView extends Component {
     constructor(props) {
         super(props);
+        //temp
+        this.state = {
+            active_view: "quests"
+        };
     }
     render(){
         return (
             <div id="navDiv">
                 <table style={{alignSelf: "center"}}>
                     <tr>
-                        <td><Button init_height={parseInt(document.body.scrollHeight)} btn_src={btn_world} a_btn_src={btn_world_a} btn_action="/map" btn_size="l"/></td>
-                        <td><Button init_height={parseInt(document.body.scrollHeight)} btn_src={btn_quests} a_btn_src={btn_quests_a} btn_action="/" btn_size="l"/></td>
-                        <td><Button init_height={parseInt(document.body.scrollHeight)} btn_src={btn_shop} a_btn_src={btn_shop_a} btn_action="/shop" btn_size="l"/></td>
-                        <td><Button init_height={parseInt(document.body.scrollHeight)} btn_src={btn_ext} a_btn_src={btn_ext_a} btn_action="" btn_size="s"/></td>
-                        <td><Button init_height={parseInt(document.body.scrollHeight)} btn_src={btn_plus} a_btn_src={btn_plus} btn_action="" btn_size="m"/></td>
+                        <td><Button init_height={parseInt(document.body.scrollHeight)} btn_src={btn_world} a_btn_src={btn_world_a} btn_id="btn_world" btn_action="/map" btn_size="l"/></td>
+                        <td><Button init_height={parseInt(document.body.scrollHeight)} btn_src={btn_quests} a_btn_src={btn_quests_a} btn_id="btn_quests" btn_action="/" btn_size="l"/></td>
+                        <td><Button init_height={parseInt(document.body.scrollHeight)} btn_src={btn_shop} a_btn_src={btn_shop_a} btn_id="btn_shop" btn_action="/shop" btn_size="l"/></td>
+                        <td><Button init_height={parseInt(document.body.scrollHeight)} btn_src={btn_ext} a_btn_src={btn_ext_a} btn_id="btn_ext" btn_action="" btn_size="s"/></td>
+                        <td><Button init_height={parseInt(document.body.scrollHeight)} btn_src={btn_plus} a_btn_src={btn_plus} btn_id="btn_plus" btn_action="" btn_size="m"/></td>
                     </tr>
                 </table>
 
