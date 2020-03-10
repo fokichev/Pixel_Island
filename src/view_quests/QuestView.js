@@ -60,7 +60,15 @@ class QuestView extends Component {
                     </div>
                 </div>
                 <div id="questToolbar">
-                    <img className="btnToolbar" src={btn_world}/>
+                    <table id={"toolbarTable"}>
+                        <tr>
+                            <td><img src={btn_world} className="btnToolbar"/></td>
+                            <td><img src={btn_inv} className="btnToolbar"/></td>
+                            <td><img src={btn_shop} className="btnToolbar"/></td>
+                            <td><img src={btn_ext} className="smallBtnToolbar"/></td>
+                            <td><img src={btn_plus} className="mediumBtnToolbar"/></td>
+                        </tr>
+                    </table>
                 </div>
             </div>
 
@@ -72,13 +80,27 @@ class QuestView extends Component {
     }
 
     componentDidMount(){
+        let i;
         //set questView height
         let body_height = parseInt(document.body.scrollHeight) - (2*parseInt(getComputedStyle(document.getElementById('questView'),null).getPropertyValue('border-width')));
         document.getElementById("questView").setAttribute("style", ("height: " + body_height + "px"));
+
         //button height
-        var toolbar_buttons = document.getElementsByClassName("btnToolbar");
-        for (var i = 0; i < toolbar_buttons.length; i++){
-            toolbar_buttons[i].setAttribute("style", ("height: " + body_height*0.14 + "px"));
+        let toolbar_buttons = document.getElementsByClassName("btnToolbar");
+        for (i = 0; i < toolbar_buttons.length; i++){
+            toolbar_buttons[i].setAttribute("style", ("height: " + body_height*0.13 + "px"));
+        }
+
+        //medium button height
+        let m_toolbar_buttons = document.getElementsByClassName("mediumBtnToolbar");
+        for (i = 0; i < m_toolbar_buttons.length; i++){
+            m_toolbar_buttons[i].setAttribute("style", ("height: " + body_height*0.07 + "px"));
+        }
+
+        //small button height
+        let s_toolbar_buttons = document.getElementsByClassName("smallBtnToolbar");
+        for (i = 0; i < s_toolbar_buttons.length; i++){
+            s_toolbar_buttons[i].setAttribute("style", ("height: " + body_height*0.02 + "px"));
         }
 
 

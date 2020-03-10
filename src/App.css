@@ -15,8 +15,12 @@ html, body, #root, .App, .App>div, .standardView{
   margin: 10px;
 }
 
-#questToolbar{
+#questToolbar {
   /*background-color: #8F5F32;*/
+  text-align: center;
+}
+
+#toolbarTable{
 
 }
 
