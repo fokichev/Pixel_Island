@@ -20,21 +20,67 @@ import btn_world_a from "./img/UI/buttons/btn_world_a.png";
 class NavigationView extends Component {
     constructor(props) {
         super(props);
-        //temp
+        //passing handler to child so child can change parent state
+        this.handler = this.handler.bind(this);
         this.state = {
-            active_view: "quests"
+            active_view: "btn_quests",
+            extended: true
         };
     }
+
+    handler(btn_action){
+        if (btn_action.includes("btn")){
+            this.setState({
+                active_view: btn_action
+            });
+        }
+        else if(btn_action === "extend"){
+            this.setState(prevState => ({
+               extended: !prevState.extended
+            }));
+        }
+
+    }
+
     render(){
+        //making the active button be highlighted
+        let btn_comp_world, btn_comp_quests, btn_comp_shop, btn_comp_ext;
+        let btn_src_world = btn_world;
+        let btn_src_quests = btn_quests;
+        let btn_src_shop = btn_shop;
+        let btn_src_ext = btn_ext;
+        //nav buttons
+        if (this.state.active_view === "btn_world"){
+            btn_src_world = btn_world_a;
+        }
+        else if (this.state.active_view === "btn_quests"){
+            btn_src_quests = btn_quests_a;
+        }
+        else if (this.state.active_view === "btn_shop"){
+            btn_src_shop = btn_shop_a;
+        }
+        else{
+            alert("something has gone wrong");
+        }
+        //expanded button
+        if (this.state.extended){
+            btn_src_ext = btn_ext_a;
+        }
+        btn_comp_world = <Button handler={this.handler} init_height={parseInt(document.body.scrollHeight)} btn_src={btn_src_world} btn_id="btn_world" btn_action="/map" btn_size="l"/>;
+        btn_comp_quests = <Button handler={this.handler} init_height={parseInt(document.body.scrollHeight)} btn_src={btn_src_quests} btn_id="btn_quests" btn_action="/" btn_size="l"/>;
+        btn_comp_shop = <Button handler={this.handler} init_height={parseInt(document.body.scrollHeight)} btn_src={btn_src_shop} btn_id="btn_shop" btn_action="/shop" btn_size="l"/>;
+        btn_comp_ext = <Button handler={this.handler} init_height={parseInt(document.body.scrollHeight)} btn_src={btn_src_ext} btn_id="btn_ext" btn_action="extend" btn_size="s"/>;
         return (
             <div id="navDiv">
                 <table style={{alignSelf: "center"}}>
                     <tr>
-                        <td><Button init_height={parseInt(document.body.scrollHeight)} btn_src={btn_world} a_btn_src={btn_world_a} btn_id="btn_world" btn_action="/map" btn_size="l"/></td>
-                        <td><Button init_height={parseInt(document.body.scrollHeight)} btn_src={btn_quests} a_btn_src={btn_quests_a} btn_id="btn_quests" btn_action="/" btn_size="l"/></td>
-                        <td><Button init_height={parseInt(document.body.scrollHeight)} btn_src={btn_shop} a_btn_src={btn_shop_a} btn_id="btn_shop" btn_action="/shop" btn_size="l"/></td>
-                        <td><Button init_height={parseInt(document.body.scrollHeight)} btn_src={btn_ext} a_btn_src={btn_ext_a} btn_id="btn_ext" btn_action="" btn_size="s"/></td>
-                        <td><Button init_height={parseInt(document.body.scrollHeight)} btn_src={btn_plus} a_btn_src={btn_plus} btn_id="btn_plus" btn_action="" btn_size="m"/></td>
+                        {/*nav*/}
+                        <td>{btn_comp_world}</td>
+                        <td>{btn_comp_quests}</td>
+                        <td>{btn_comp_shop}</td>
+                        {/*end nav*/}
+                        <td>{btn_comp_ext}</td>
+                        <td><Button init_height={parseInt(document.body.scrollHeight)} btn_src={btn_plus} btn_id="btn_plus" btn_action="" btn_size="m"/></td>
                     </tr>
                 </table>
 

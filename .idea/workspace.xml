@@ -2,15 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="449ef448-a806-4847-abef-2e053e0eb2c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/www/precache-manifest.c181e7d3faf34a6c2e1b01515fe82062.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/static/js/2.d72c7062.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/static/js/2.d72c7062.chunk.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/static/js/2.d72c7062.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/static/js/main.c371acb9.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/static/js/main.c371acb9.chunk.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/precache-manifest.cbde80e564f5cff4f4891cb381690e27.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/2.11285ca3.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/2.11285ca3.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/2.11285ca3.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/main.aa671bcb.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/main.aa671bcb.chunk.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NavigationView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/NavigationView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view_quests/QuestView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view_quests/QuestView.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/precache-manifest.cbde80e564f5cff4f4891cb381690e27.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/www/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/js/2.11285ca3.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/js/2.11285ca3.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/js/2.11285ca3.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/js/main.aa671bcb.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/js/main.aa671bcb.chunk.js.map" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +117,7 @@
       <workItem from="1582994607402" duration="18491000" />
       <workItem from="1583341760637" duration="6065000" />
       <workItem from="1583409208176" duration="20392000" />
-      <workItem from="1583601446142" duration="30245000" />
+      <workItem from="1583601446142" duration="33581000" />
     </task>
     <servers />
   </component>
@@ -137,22 +156,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582994836466" />
-    <state width="1899" height="299" key="GridCell.Tab.0.bottom" timestamp="1583855972538">
+    <state width="1899" height="299" key="GridCell.Tab.0.bottom" timestamp="1583922949467">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="299" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583855972538" />
-    <state width="1899" height="299" key="GridCell.Tab.0.center" timestamp="1583855972537">
+    <state width="1899" height="299" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583922949467" />
+    <state width="1899" height="299" key="GridCell.Tab.0.center" timestamp="1583922949467">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="299" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583855972537" />
-    <state width="1899" height="299" key="GridCell.Tab.0.left" timestamp="1583855972537">
+    <state width="1899" height="299" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583922949467" />
+    <state width="1899" height="299" key="GridCell.Tab.0.left" timestamp="1583922949467">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="299" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583855972537" />
-    <state width="1899" height="299" key="GridCell.Tab.0.right" timestamp="1583855972538">
+    <state width="1899" height="299" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583922949467" />
+    <state width="1899" height="299" key="GridCell.Tab.0.right" timestamp="1583922949467">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="299" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583855972538" />
+    <state width="1899" height="299" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583922949467" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1583412813397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

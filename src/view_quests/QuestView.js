@@ -22,7 +22,6 @@ class QuestView extends Component {
             <div id="questView">
                 <div style={{backgroundColor: "#D8A26F"}}>
                     <img id="questTextImg" src={quests_text} style={{height: "7%", margin: "10px"}}/>
-                    <Link to="/map">Map</Link>
                     <div id="questCards" style={{height: this.initial_height*0.72 + "px", overflow: "scroll"}}>
                         <QuestCard/>
                         <QuestCard/>

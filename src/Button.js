@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
-import {Link, withRouter} from "react-router-dom";
+import {withRouter} from "react-router-dom";
 
 class ButtonWorld extends Component {
     constructor(props) {
@@ -22,12 +22,15 @@ class ButtonWorld extends Component {
             this.btn_height = this.btn_height*0.04;
         }
         else{
-            alert("btn error");
+            try{
+                this.btn_height = this.btn_height*this.props.btn_size;
+            }
+            catch{
+                alert("Error: button size doesn't match available options, please contact developer.");
+            }
         }
         return (
-            // <Link to={this.props.btn_action}>
             <img src={this.props.btn_src} class="btn" id={this.props.btn_id} style={{height: this.btn_height + "px"}} onClick={() => this.btnPress()}/>
-            //</Link>
 
         )
     }
@@ -36,8 +39,18 @@ class ButtonWorld extends Component {
         if(this.props.btn_action.charAt(0) === "/") {
             //change current view
             this.props.history.push(this.props.btn_action);
+            //set nav state to button id
+            this.props.handler(this.props.btn_id);
+
+            //make button active
+            //document.getElementById(this.props.btn_id).setAttribute("src", this.props.a_btn_src);
         }
-        document.getElementById(this.props.btn_id).setAttribute("src", this.props.a_btn_src);
+        else if(this.props.btn_action === "extend"){
+            //todo: make menu expand and retract
+            this.props.handler("extend");
+        }
+
+        //todo: revert other buttons to passive src
     }
 
 }
