@@ -33,6 +33,18 @@ class QuestView extends Component {
                         <QuestCard/>
                         <QuestCard/>
                         <QuestCard/>
+                        <QuestCard/>
+                        <QuestCard/>
+                        <QuestCard/>
+                        <QuestCard/>
+                        <QuestCard/>
+                        <QuestCard/>
+                        <QuestCard/>
+                        <QuestCard/>
+                        <QuestCard/>
+                        <QuestCard/>
+                        <QuestCard/>
+                        <QuestCard/>
                         {/*<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed velit dignissim sodales ut eu sem. Orci nulla pellentesque dignissim enim sit amet venenatis urna. Volutpat est velit egestas dui id ornare arcu odio. Eleifend donec pretium vulputate sapien nec sagittis. Nulla pharetra diam sit amet nisl. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Sit amet venenatis urna cursus eget nunc scelerisque. Dolor morbi non arcu risus quis. Nibh mauris cursus mattis molestie a iaculis at erat.*/}
 
                         {/*    Interdum varius sit amet mattis vulputate enim nulla. Tempor orci eu lobortis elementum. Duis convallis convallis tellus id interdum velit laoreet id donec. Arcu non sodales neque sodales ut etiam sit. Elementum sagittis vitae et leo duis ut diam quam. Lobortis feugiat vivamus at augue eget. Eros in cursus turpis massa tincidunt. Eros in cursus turpis massa tincidunt. Amet porttitor eget dolor morbi non arcu. Volutpat lacus laoreet non curabitur gravida arcu ac tortor. Odio ut enim blandit volutpat. Eu non diam phasellus vestibulum lorem sed risus ultricies. Nulla aliquet enim tortor at.*/}

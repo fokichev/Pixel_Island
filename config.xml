@@ -10,6 +10,9 @@
         <icon background="src/img/UI/icon/icon_bg.png" density="xxxhdpi" foreground="src/img/UI/icon/mipmap-xxxhdpi/ic_launcher.png"/>
     </platform>
 
+    <!--persistent storage for cordova-plugin-file-->
+    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+
     <!--splash screen-->
     <splash src="src/img/UI/splash_screen.png"/>
     <preference name="SplashMaintainAspectRatio" value="true" />

@@ -38,6 +38,8 @@ html, body, #root, .App, .App>div, .standardView{
   border: 8px solid transparent;
   border-image: url(img/UI/card-border.png) 32 stretch;
   margin: 10px;
+  overflow-x: auto;
+  white-space: normal;
 }
 
 #mapView{
