@@ -18,6 +18,13 @@ html, body, #root, .App, .App>div, .standardView{
   z-index: 2;
 }
 
+#settingsDiv{
+  width: 80%;
+  background-color: transparent;
+  position: absolute;
+  z-index: 2;
+}
+
 
 #questView{
   border: 8px solid transparent;
@@ -26,9 +33,10 @@ html, body, #root, .App, .App>div, .standardView{
   text-align: center;
 }
 
-
 .questCard{
-  background-color: blue;
+  background-color: #F8F2EC;
+  border: 8px solid transparent;
+  border-image: url(img/UI/card-border.png) 32 stretch;
   margin: 10px;
 }
 

@@ -49,8 +49,6 @@ class ButtonWorld extends Component {
             //todo: make menu expand and retract
             this.props.handler("extend");
         }
-
-        //todo: revert other buttons to passive src
     }
 
 }
