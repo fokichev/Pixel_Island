@@ -80,7 +80,7 @@ class NavigationView extends Component {
                         <td>{btn_comp_shop}</td>
                         {/*end nav*/}
                         <td>{btn_comp_ext}</td>
-                        <td><Button init_height={parseInt(document.body.scrollHeight)} btn_src={btn_plus} btn_id="btn_plus" btn_action="" btn_size="m"/></td>
+                        <td><Button init_height={parseInt(document.body.scrollHeight)} btn_src={btn_plus} btn_id="btn_plus" btn_action="/newQuest" btn_size="m"/></td>
                     </tr>
                 </table>
 

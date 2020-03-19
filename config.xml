@@ -11,7 +11,8 @@
     </platform>
 
     <!--persistent storage for cordova-plugin-file-->
-    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+    <!--internal for storing on device (not SD) card - the app data isn't large so this is justifiable-->
+    <preference name="AndroidPersistentFileLocation" value="Internal" />
 
     <!--splash screen-->
     <splash src="src/img/UI/splash_screen.png"/>

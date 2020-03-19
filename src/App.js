@@ -11,6 +11,7 @@ import QuestView from './view_quests/QuestView.js';
 import MapView from './view_map/MapView';
 import ShopView from "./view_shop/ShopView";
 import SettingsView from "./view_quests/SettingsView";
+import NewQuestView from "./view_quests/NewQuestView";
 
 function App() {
     // constructor(props){}
@@ -22,6 +23,7 @@ function App() {
                     <Route path="/map" component={MapView}/>
                     <Route path="/shop" component={ShopView}/>
                     <Route path="/settings" component={SettingsView}/>
+                    <Route path="/newQuest" component={NewQuestView}/>
                     <Route path="/" component={QuestView}/>
                 </Switch>
             </Router>

@@ -41,6 +41,6 @@
     <icon background="src/img/UI/icon/icon_bg.png" density="xxxhdpi" foreground="src/img/UI/icon/mipmap-xxxhdpi/ic_launcher.png" />
     <allow-intent href="market:*" />
     <preference name="loglevel" value="DEBUG" />
-    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+    <preference name="AndroidPersistentFileLocation" value="Internal" />
     <preference name="SplashMaintainAspectRatio" value="true" />
 </widget>
