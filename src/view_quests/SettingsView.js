@@ -12,7 +12,7 @@ class SettingsView extends Component {
 
     render() {
         return (
-            <div id="settingsView">
+            <div id="settingsDiv">
                 <p>settings</p>
                 <button>ok</button>
 
