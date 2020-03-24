@@ -2,42 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="449ef448-a806-4847-abef-2e053e0eb2c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/img/UI/new_quest_text.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/precache-manifest.d254009996cab9263db3692d5406e84d.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/static/css/main.d9b4314a.chunk.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/static/css/main.d9b4314a.chunk.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/static/js/2.d1a65766.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/static/js/2.d1a65766.chunk.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/static/js/2.d1a65766.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/static/js/main.57ddd172.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/static/js/main.57ddd172.chunk.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/precache-manifest.297fa3f4df199d44050b3e9c94473645.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/css/main.5749c9c7.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/css/main.5749c9c7.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/2.080a80ec.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/2.080a80ec.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/2.080a80ec.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/main.23794aec.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/main.23794aec.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view_quests/NewQuestView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view_quests/NewQuestView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view_quests/QuestView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view_quests/QuestView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view_quests/SettingsView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view_quests/SettingsView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/precache-manifest.297fa3f4df199d44050b3e9c94473645.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/static/css/main.5749c9c7.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/static/css/main.5749c9c7.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/static/js/2.080a80ec.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/static/js/2.080a80ec.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/static/js/2.080a80ec.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/static/js/main.23794aec.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/static/js/main.23794aec.chunk.js.map" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +95,7 @@
       <workItem from="1583601446142" duration="40812000" />
       <workItem from="1584626357251" duration="47000" />
       <workItem from="1584630619160" duration="4271000" />
-      <workItem from="1584882451116" duration="6536000" />
+      <workItem from="1584882451116" duration="8170000" />
     </task>
     <servers />
   </component>
@@ -165,10 +130,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583844884662" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1584899724468">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1585074542222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584899724468" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585074542222" />
     <state width="1899" height="278" key="GridCell.Tab.0.bottom" timestamp="1585045246699">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
