@@ -1,3 +1,4 @@
+/*** GLOBAL CSS ***/
 html, body, #root, .App, .App>div, .standardView{
   height: 100%;
 }
@@ -6,6 +7,7 @@ html, body, #root, .App, .App>div, .standardView{
   margin: 3px;
 }
 
+/* NAVIGATION */
 #navDiv{
   width: 100%;
   margin-bottom: 2%;
@@ -16,34 +18,6 @@ html, body, #root, .App, .App>div, .standardView{
   text-align: center;
   bottom: 0;
   z-index: 2;
-}
-
-#settingsDiv{
-  width: 80%;
-  background-color: transparent;
-  position: absolute;
-  z-index: 2;
-}
-
-
-#questView{
-  border: 8px solid transparent;
-  border-image: url(img/UI/todo-border.png) 32 stretch;
-  background-color: #8F5F32;
-  text-align: center;
-}
-
-.questCard{
-  background-color: #F8F2EC;
-  border: 8px solid transparent;
-  border-image: url(img/UI/card-border.png) 32 stretch;
-  margin: 10px;
-  overflow-x: auto;
-  white-space: normal;
-}
-
-#mapView{
-  background-color: aquamarine;
 }
 
 /* scrollbar stuff */
@@ -66,6 +40,81 @@ html, body, #root, .App, .App>div, .standardView{
 ::-webkit-scrollbar-thumb:hover {
   background: #8F5F32;
 }
+
+/*** GLOBAL CSS END ***/
+/******************************/
+/*** QUESTS VIEW ***/
+#questView{
+  border: 8px solid transparent;
+  border-image: url(img/UI/todo-border.png) 32 stretch;
+  background-color: #8F5F32;
+  text-align: center;
+}
+
+.questTextImg{
+  margin: 10px;
+  selfAlign: "center";
+}
+
+.questCard{
+  background-color: #F8F2EC;
+  border: 8px solid transparent;
+  border-image: url(img/UI/card-border.png) 32 stretch;
+  margin: 10px;
+  overflow-x: auto;
+  white-space: normal;
+}
+
+/* SETTINGS */
+#settingsView{
+  border: 8px solid transparent;
+  border-image: url(img/UI/todo-border.png) 32 stretch;
+  background-color: #8F5F32;
+  text-align: center;
+}
+
+/* NEW QUEST */
+#newQuestView{
+  border: 8px solid transparent;
+  border-image: url(img/UI/todo-border.png) 32 stretch;
+  background-color: #8F5F32;
+  text-align: center;
+}
+
+#newQuestTop{
+
+}
+
+#newQuestMiddle{
+
+}
+
+#newQuestDifficulty{
+
+}
+
+#newQuestButtons{
+
+}
+
+
+
+/*** QUEST VIEW END ***/
+/******************************/
+/*** MAP VIEW ***/
+#mapView{
+  background-color: aquamarine;
+}
+
+/*** MAP VIEW END ***/
+/******************************/
+/*** SHOP VIEW ***/
+
+
+/*** SHOP VIEW END ***/
+/******************************/
+
+
 
 /*
 .App {

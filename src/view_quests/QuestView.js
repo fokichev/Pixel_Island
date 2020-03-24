@@ -23,8 +23,7 @@ class QuestView extends Component {
         return (
             <div id="questView">
                 <div style={{backgroundColor: "#D8A26F"}}>
-                    <img id="questTextImg" src={quests_text} style={{height: "7%", margin: "10px", selfAlign: "center"}}/>
-                    {/*<img id="btnSettings" src={btn_settings} style={{selfAlign: "right"}}/>*/}
+                    <img className="questTextImg" src={quests_text} />
                     <Button init_height={this.initial_height} btn_src={btn_settings} btn_id="btn_settings" btn_action="/settings" btn_size="m"/>
                     <div id="questCards" style={{height: this.initial_height*0.72 + "px", overflow: "scroll"}}>
                         <QuestCard/>
@@ -77,10 +76,11 @@ class QuestView extends Component {
     }
 
     componentDidMount(){
-        let i;
         //set questView height
         let body_height = parseInt(document.body.scrollHeight) - (2*parseInt(getComputedStyle(document.getElementById('questView'),null).getPropertyValue('border-width')));
         document.getElementById("questView").setAttribute("style", ("height: " + body_height + "px"));
+        //set questTextImg height
+        let quest_txt_height = body_height * 0.07;
     }
 }
 
