@@ -1,3 +1,4 @@
+/*** GLOBAL CSS ***/
 html, body, #root, .App, .App>div, .standardView{
   height: 100%;
 }
@@ -5,7 +6,9 @@ html, body, #root, .App, .App>div, .standardView{
 .btn{
   margin: 3px;
 }
+/*** END GLOBAL CSS ***/
 
+/*** NAVIGATION ***/
 #navDiv{
   width: 100%;
   margin-bottom: 2%;
@@ -17,15 +20,9 @@ html, body, #root, .App, .App>div, .standardView{
   bottom: 0;
   z-index: 2;
 }
+/*** END NAVIGATION ***/
 
-#settingsDiv{
-  width: 80%;
-  background-color: transparent;
-  position: absolute;
-  z-index: 2;
-}
-
-
+/*** QUEST VIEW ***/
 #questView{
   border: 8px solid transparent;
   border-image: url(img/UI/todo-border.png) 32 stretch;
@@ -43,8 +40,11 @@ html, body, #root, .App, .App>div, .standardView{
   /*font-size: 0.85em;*/
 }
 
-#mapView{
-  background-color: aquamarine;
+#settingsDiv{
+  width: 80%;
+  background-color: transparent;
+  position: absolute;
+  z-index: 2;
 }
 
 /* scrollbar stuff */
@@ -67,6 +67,57 @@ html, body, #root, .App, .App>div, .standardView{
 ::-webkit-scrollbar-thumb:hover {
   background: #8F5F32;
 }
+/*** END QUEST VIEW ***/
+
+/*** NEW QUEST VIEW ***/
+#newQuestView{
+
+}
+
+#newQuestTop{
+
+}
+
+#newQuestMiddle{
+
+}
+
+#newQuestDifficulties{
+
+}
+
+#newQuestButtons{
+
+}
+
+#newQuestTextImg{
+  
+}
+
+/*** END NEW QUEST VIEW ***/
+
+/*** MAP VIEW ***/
+#mapView{
+  background-color: aquamarine;
+}
+/*** END MAP VIEW ***/
+
+/*** SHOP VIEW ***/
+
+
+/*** END SHOP VIEW ***/
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 .App {
