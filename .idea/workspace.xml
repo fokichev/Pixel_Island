@@ -2,7 +2,191 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="449ef448-a806-4847-abef-2e053e0eb2c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/img/UI/splash_screen_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/precache-manifest.d2f3ee682bb88c79e345efb0a448007f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/static/css/main.54441ed6.chunk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/static/css/main.54441ed6.chunk.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/.ratignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/RELEASENOTES.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/doc/plugins.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/src/android/AssetFilesystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/src/android/ContentFilesystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/src/android/DirectoryManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/src/android/EncodingException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/src/android/FileExistsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/src/android/FileUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/src/android/Filesystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/src/android/InvalidModificationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/src/android/LocalFilesystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/src/android/LocalFilesystemURL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/src/android/NoModificationAllowedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/src/android/PendingRequests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/src/android/TypeMismatchException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/src/android/build-extras.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/src/browser/FileProxy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/src/ios/CDVAssetLibraryFilesystem.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/src/ios/CDVAssetLibraryFilesystem.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/src/ios/CDVFile.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/src/ios/CDVFile.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/src/ios/CDVLocalFilesystem.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/src/ios/CDVLocalFilesystem.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/src/osx/CDVFile.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/src/osx/CDVFile.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/src/osx/CDVLocalFilesystem.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/src/osx/CDVLocalFilesystem.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/src/windows/FileProxy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/tests/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/tests/plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/tests/src/android/TestContentProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/tests/tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/tests/www/fixtures/asset-test/asset-test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/types/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/www/DirectoryEntry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/www/DirectoryReader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/www/Entry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/www/File.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/www/FileEntry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/www/FileError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/www/FileReader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/www/FileSystem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/www/FileUploadOptions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/www/FileUploadResult.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/www/FileWriter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/www/Flags.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/www/LocalFileSystem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/www/Metadata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/www/ProgressEvent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/www/android/FileSystem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/www/browser/FileSystem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/www/browser/Preparing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/www/browser/isChrome.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/www/fileSystemPaths.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/www/fileSystems-roots.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/www/fileSystems.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/www/ios/FileSystem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/www/osx/FileSystem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/www/requestFileSystem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-file/www/resolveLocalFileSystemURI.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/android.json" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/android.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/cordova_plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/cordova_plugins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/precache-manifest.297fa3f4df199d44050b3e9c94473645.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/css/main.5749c9c7.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/css/main.5749c9c7.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/2.080a80ec.chunk.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/2.080a80ec.chunk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/2.080a80ec.chunk.js.LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/2.080a80ec.chunk.js.LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/main.23794aec.chunk.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/main.23794aec.chunk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/main.23794aec.chunk.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/main.23794aec.chunk.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/java/org/apache/cordova/file/AssetFilesystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/java/org/apache/cordova/file/ContentFilesystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/java/org/apache/cordova/file/DirectoryManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/java/org/apache/cordova/file/EncodingException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/java/org/apache/cordova/file/FileExistsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/java/org/apache/cordova/file/FileUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/java/org/apache/cordova/file/Filesystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/java/org/apache/cordova/file/InvalidModificationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/java/org/apache/cordova/file/LocalFilesystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/java/org/apache/cordova/file/LocalFilesystemURL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/java/org/apache/cordova/file/NoModificationAllowedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/java/org/apache/cordova/file/PendingRequests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/java/org/apache/cordova/file/TypeMismatchException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/drawable-mdpi/screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/xml/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/res/xml/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/platform_www/cordova_plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/platform_www/cordova_plugins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/android.json" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/android.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/.ratignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/RELEASENOTES.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/doc/plugins.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/src/android/AssetFilesystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/src/android/ContentFilesystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/src/android/DirectoryManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/src/android/EncodingException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/src/android/FileExistsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/src/android/FileUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/src/android/Filesystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/src/android/InvalidModificationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/src/android/LocalFilesystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/src/android/LocalFilesystemURL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/src/android/NoModificationAllowedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/src/android/PendingRequests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/src/android/TypeMismatchException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/src/android/build-extras.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/src/browser/FileProxy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/src/ios/CDVAssetLibraryFilesystem.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/src/ios/CDVAssetLibraryFilesystem.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/src/ios/CDVFile.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/src/ios/CDVFile.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/src/ios/CDVLocalFilesystem.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/src/ios/CDVLocalFilesystem.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/src/osx/CDVFile.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/src/osx/CDVFile.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/src/osx/CDVLocalFilesystem.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/src/osx/CDVLocalFilesystem.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/src/windows/FileProxy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/tests/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/tests/plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/tests/src/android/TestContentProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/tests/tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/tests/www/fixtures/asset-test/asset-test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/types/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/www/DirectoryEntry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/www/DirectoryReader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/www/Entry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/www/File.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/www/FileEntry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/www/FileError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/www/FileReader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/www/FileSystem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/www/FileUploadOptions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/www/FileUploadResult.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/www/FileWriter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/www/Flags.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/www/LocalFileSystem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/www/Metadata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/www/ProgressEvent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/www/android/FileSystem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/www/browser/FileSystem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/www/browser/Preparing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/www/browser/isChrome.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/www/fileSystemPaths.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/www/fileSystems-roots.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/www/fileSystems.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/www/ios/FileSystem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/www/osx/FileSystem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/www/requestFileSystem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/www/resolveLocalFileSystemURI.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/fetch.json" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/fetch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/precache-manifest.297fa3f4df199d44050b3e9c94473645.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/css/main.5749c9c7.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/css/main.5749c9c7.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/js/2.080a80ec.chunk.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/static/js/2.080a80ec.chunk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/js/2.080a80ec.chunk.js.LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/www/static/js/2.080a80ec.chunk.js.LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/js/main.23794aec.chunk.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/static/js/main.23794aec.chunk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/js/main.23794aec.chunk.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/www/static/js/main.23794aec.chunk.js.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +232,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.phonegap.settings.workdir" value="$PROJECT_DIR$" />
     <property name="jsx.switch.disabled" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PixelIsland" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../testng" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -57,7 +241,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -96,6 +280,8 @@
       <workItem from="1584626357251" duration="47000" />
       <workItem from="1584630619160" duration="4271000" />
       <workItem from="1584882451116" duration="8234000" />
+      <workItem from="1585078624609" duration="14277000" />
+      <workItem from="1585751447508" duration="3529000" />
     </task>
     <servers />
   </component>
@@ -118,10 +304,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="206" key="#QuestView.js/0.0.1920.1040@0.0.1920.1040" timestamp="1583252231674" />
-    <state x="0" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583253113584">
+    <state x="0" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585079887921">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583253113584" />
+    <state x="0" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585079887921" />
     <state x="711" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583245665137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -130,29 +316,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583844884662" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1585074542222">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1585253710941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585074542222" />
-    <state width="1899" height="278" key="GridCell.Tab.0.bottom" timestamp="1585075556508">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585253710941" />
+    <state width="1899" height="275" key="GridCell.Tab.0.bottom" timestamp="1585764069990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585075556508" />
-    <state width="1899" height="278" key="GridCell.Tab.0.center" timestamp="1585075556508">
+    <state width="1899" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585764069990" />
+    <state width="1899" height="275" key="GridCell.Tab.0.center" timestamp="1585764069990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585075556508" />
-    <state width="1899" height="278" key="GridCell.Tab.0.left" timestamp="1585075556508">
+    <state width="1899" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585764069990" />
+    <state width="1899" height="275" key="GridCell.Tab.0.left" timestamp="1585764069990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585075556508" />
-    <state width="1899" height="278" key="GridCell.Tab.0.right" timestamp="1585075556508">
+    <state width="1899" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585764069990" />
+    <state width="1899" height="275" key="GridCell.Tab.0.right" timestamp="1585764069990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585075556508" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1583412813397">
+    <state width="1899" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585764069990" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1585079199352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583412813397" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585079199352" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585079182004">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585079182004" />
   </component>
 </project>

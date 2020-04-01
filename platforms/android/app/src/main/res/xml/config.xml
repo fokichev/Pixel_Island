@@ -4,21 +4,15 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
-    <feature name="SplashScreen">
-        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
-        <param name="onload" value="true" />
-    </feature>
     <feature name="StatusBar">
         <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
         <param name="onload" value="true" />
     </feature>
-    <feature name="File">
-        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
         <param name="onload" value="true" />
     </feature>
-    <allow-navigation href="cdvfile:*" />
     <hook src="scripts/prebuild.js" type="before_prepare" />
-    <splash src="src/img/UI/splash_screen.png" />
     <name>Pixel Island</name>
     <description>
         A gamified to-do list. Made by Polina Fokicheva.
@@ -39,6 +33,8 @@
     <icon background="src/img/UI/icon/icon_bg.png" density="xhdpi" foreground="src/img/UI/icon/mipmap-xhdpi/ic_launcher.png" />
     <icon background="src/img/UI/icon/icon_bg.png" density="xxhdpi" foreground="src/img/UI/icon/mipmap-xxhdpi/ic_launcher.png" />
     <icon background="src/img/UI/icon/icon_bg.png" density="xxxhdpi" foreground="src/img/UI/icon/mipmap-xxxhdpi/ic_launcher.png" />
+    <splash density="xhdpi" src="src/img/UI/splash_screen_2.png" />
+    <splash density="xxhdpi" src="src/img/UI/splash_screen.png" />
     <allow-intent href="market:*" />
     <preference name="loglevel" value="DEBUG" />
     <preference name="AndroidPersistentFileLocation" value="Internal" />

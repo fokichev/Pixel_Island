@@ -8,6 +8,10 @@
         <icon background="src/img/UI/icon/icon_bg.png" density="xhdpi" foreground="src/img/UI/icon/mipmap-xhdpi/ic_launcher.png"/>
         <icon background="src/img/UI/icon/icon_bg.png" density="xxhdpi" foreground="src/img/UI/icon/mipmap-xxhdpi/ic_launcher.png"/>
         <icon background="src/img/UI/icon/icon_bg.png" density="xxxhdpi" foreground="src/img/UI/icon/mipmap-xxxhdpi/ic_launcher.png"/>
+
+        <splash src="src/img/UI/splash_screen_2.png" density="xhdpi"/>
+        <splash src="src/img/UI/splash_screen.png" density="xxhdpi"/>
+        <preference name="SplashMaintainAspectRatio" value="true" />
     </platform>
 
     <!--persistent storage for cordova-plugin-file-->
@@ -15,8 +19,8 @@
     <preference name="AndroidPersistentFileLocation" value="Internal" />
 
     <!--splash screen-->
-    <splash src="src/img/UI/splash_screen.png"/>
-    <preference name="SplashMaintainAspectRatio" value="true" />
+<!--    <splash src="src/img/UI/splash_screen.png"/>-->
+<!--    <preference name="SplashMaintainAspectRatio" value="true" />-->
 
     <!--preference name="StatusBarBackgroundColor" value="#0000ff" /-->
 
