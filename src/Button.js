@@ -21,6 +21,9 @@ class ButtonWorld extends Component {
         else if(this.props.btn_size == "s"){
             this.btn_height = this.btn_height*0.04;
         }
+        else if(this.props.btn_size == "d"){
+            this.btn_height = this.btn_height*0.1
+        }
         else{
             try{
                 this.btn_height = this.btn_height*this.props.btn_size;
@@ -48,6 +51,9 @@ class ButtonWorld extends Component {
         else if(this.props.btn_action === "extend"){
             //todo: make menu expand and retract
             this.props.handler("extend");
+        }
+        else if(this.props.btn_action.includes("diff")){
+            this.props.handler(this.props.btn_action);
         }
     }
 

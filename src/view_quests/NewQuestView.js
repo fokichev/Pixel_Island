@@ -4,19 +4,68 @@ import {
 } from "react-router-dom";
 import '../App.css';
 
+//components
+import Button from "../Button";
+
 //files
-import new_quest_text from "../img/UI/new_quest_text.png"
+import new_quest_text from "../img/UI/new_quest_text.png";
+import diff_trivial from "../img/UI/difficulties/diff_trivial.png";
+import diff_trivial_a from "../img/UI/difficulties/diff_trivial_a.png";
+import diff_easy from "../img/UI/difficulties/diff_easy.png";
+import diff_easy_a from "../img/UI/difficulties/diff_easy_a.png";
+import diff_medium from "../img/UI/difficulties/diff_medium.png";
+import diff_medium_a from "../img/UI/difficulties/diff_medium_a.png";
+import diff_hard from "../img/UI/difficulties/diff_hard.png";
+import diff_hard_a from "../img/UI/difficulties/diff_hard_a.png";
 
 class NewQuestView extends Component {
     constructor(props) {
         super(props);
-        //delete if not needed
+        //passing handler to child so child can change parent state
+        this.handler = this.handler.bind(this);
+        this.state = {
+            active_diff: "null"
+        };
+    }
+
+    handler(btn_action){
+        // Button class changes parent class's state
+        if (btn_action.includes("diff")){
+            this.setState({
+                active_diff: btn_action
+            });
+        }
     }
 
     //variables
     initial_height;
 
     render() {
+        let btn_comp_trivial, btn_comp_easy, btn_comp_medium, btn_comp_hard;
+        let btn_src_trivial = diff_trivial;
+        let btn_src_easy = diff_easy;
+        let btn_src_medium = diff_medium;
+        let btn_src_hard = diff_hard;
+        if (this.state.active_diff === "diff_trivial"){
+            btn_src_trivial = diff_trivial_a;
+        }
+        else if(this.state.active_diff === "diff_easy"){
+            btn_src_easy = diff_easy_a;
+        }
+        else if(this.state.active_diff === "diff_medium"){
+            btn_src_medium = diff_medium_a;
+        }
+        else if(this.state.active_diff === "diff_hard"){
+            btn_src_hard = diff_hard_a;
+        }
+        else{
+            //do nothing
+        }
+        btn_comp_trivial = <Button handler={this.handler} init_height={this.initial_height} btn_src={btn_src_trivial} btn_id="btn_diff_trivial" btn_action="diff_trivial" btn_size="d"/>;
+        btn_comp_easy = <Button handler={this.handler} init_height={this.initial_height} btn_src={btn_src_easy} btn_id="btn_diff_easy" btn_action="diff_easy" btn_size="d"/>;
+        btn_comp_medium = <Button handler={this.handler} init_height={this.initial_height} btn_src={btn_src_medium} btn_id="btn_diff_medium" btn_action="diff_medium" btn_size="d"/>;
+        btn_comp_hard = <Button handler={this.handler} init_height={this.initial_height} btn_src={btn_src_hard} btn_id="btn_diff_hard" btn_action="diff_hard" btn_size="d"/>;
+
         return (
             <div id="newQuestView">
                 <div id="newQuestTop">
@@ -25,7 +74,13 @@ class NewQuestView extends Component {
                     <textarea id="detailsTextArea" rows="5" placeholder="Details..."/>
                 </div>
                 <div id="newQuestMiddle">
-                    <div id="newQuestDifficulty"></div>
+                    <div id="newQuestDifficultySpan">Difficulty</div>
+                    <div id="newQuestDifficulty">
+                        {btn_comp_trivial}
+                        {btn_comp_easy}
+                        {btn_comp_medium}
+                        {btn_comp_hard}
+                    </div>
                     <div id="newQuestButtons"></div>
                 </div>
 

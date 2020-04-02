@@ -80,6 +80,7 @@ html, body, #root, .App, .App>div, .standardView{
   border-image: url(img/UI/todo-border.png) 32 stretch;
   background-color: #8F5F32;
   text-align: center;
+  font-family: font_8bit;
 }
 
 #newQuestTop{
@@ -87,7 +88,9 @@ html, body, #root, .App, .App>div, .standardView{
 }
 
 #newQuestMiddle{
-
+  background-color: #D8A26F;
+  width: 100%;
+  margin: 0;
 }
 
 #newQuestDifficulties{
@@ -111,6 +114,13 @@ html, body, #root, .App, .App>div, .standardView{
   font-size: large;
   font-family: font_8bit;
   color: #DEBEA1;
+}
+
+#newQuestDifficultySpan{
+  text-align: left;
+  width: 100%;
+  margin: 2%;
+  font-size: x-large;
 }
 /*** END NEW QUEST VIEW ***/
 

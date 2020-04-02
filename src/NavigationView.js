@@ -29,6 +29,7 @@ class NavigationView extends Component {
     }
 
     handler(btn_action){
+        // Button class changes parent class's state
         if (btn_action.includes("btn")){
             this.setState({
                 active_view: btn_action
