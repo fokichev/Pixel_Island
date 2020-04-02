@@ -17,6 +17,8 @@ import diff_medium from "../img/UI/difficulties/diff_medium.png";
 import diff_medium_a from "../img/UI/difficulties/diff_medium_a.png";
 import diff_hard from "../img/UI/difficulties/diff_hard.png";
 import diff_hard_a from "../img/UI/difficulties/diff_hard_a.png";
+import btn_delete from "../img/UI/buttons/btn_delete.png";
+import btn_create from "../img/UI/buttons/btn_create.png";
 
 class NewQuestView extends Component {
     constructor(props) {
@@ -34,6 +36,15 @@ class NewQuestView extends Component {
             this.setState({
                 active_diff: btn_action
             });
+        }
+        else if (btn_action === "quest_delete"){
+            alert("delete");
+        }
+        else if (btn_action === "quest_create"){
+            alert("create");
+        }
+        else{
+            //do nothing
         }
     }
 
@@ -76,12 +87,25 @@ class NewQuestView extends Component {
                 <div id="newQuestMiddle">
                     <div id="newQuestDifficultySpan">Difficulty</div>
                     <div id="newQuestDifficulty">
-                        {btn_comp_trivial}
-                        {btn_comp_easy}
-                        {btn_comp_medium}
-                        {btn_comp_hard}
+                        <table id="newQuestTable">
+                            <tr>
+                                <td>{btn_comp_trivial}</td>
+                                <td>{btn_comp_easy}</td>
+                                <td>{btn_comp_medium}</td>
+                                <td>{btn_comp_hard}</td>
+                            </tr>
+                            <tr>
+                                <td>Trivial</td>
+                                <td>Easy</td>
+                                <td>Medium</td>
+                                <td>Hard</td>
+                            </tr>
+                        </table>
                     </div>
-                    <div id="newQuestButtons"></div>
+                    <div id="newQuestButtons">
+                        <Button handler={this.handler} init_height={this.initial_height} btn_src={btn_delete} btn_id="btn_quest_delete" btn_action="quest_delete" btn_size="m"/>
+                        <Button handler={this.handler} init_height={this.initial_height} btn_src={btn_create} btn_id="btn_quest_create" btn_action="quest_create" btn_size="m"/>
+                    </div>
                 </div>
 
             </div>

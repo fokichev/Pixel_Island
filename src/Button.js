@@ -52,7 +52,7 @@ class ButtonWorld extends Component {
             //todo: make menu expand and retract
             this.props.handler("extend");
         }
-        else if(this.props.btn_action.includes("diff")){
+        else if(this.props.btn_action.includes("diff") || this.props.btn_action.includes("quest")){
             this.props.handler(this.props.btn_action);
         }
     }

@@ -93,8 +93,8 @@ html, body, #root, .App, .App>div, .standardView{
   margin: 0;
 }
 
-#newQuestDifficulties{
-
+#newQuestDifficulty{
+  margin: 0 auto 0 auto;
 }
 
 #newQuestButtons{
@@ -121,6 +121,19 @@ html, body, #root, .App, .App>div, .standardView{
   width: 100%;
   margin: 2%;
   font-size: x-large;
+}
+
+#newQuestTable{
+  align-self: center;
+  margin: 0 auto;
+}
+
+#btn_quest_delete{
+  margin-right: 15%;
+}
+
+#btn_quest_create{
+  margin-left: 15%;
 }
 /*** END NEW QUEST VIEW ***/
 
