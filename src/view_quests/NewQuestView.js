@@ -20,7 +20,9 @@ class NewQuestView extends Component {
         return (
             <div id="newQuestView">
                 <div id="newQuestTop">
-                    <img src={new_quest_text} id="newQuestTextImg"/>
+                    <img src={new_quest_text} id="newQuestTextImg" alt="New Quest!"/>
+                    <textarea id="goalTextArea" rows="1" placeholder="What's the goal?"/>
+                    <textarea id="detailsTextArea" rows="5" placeholder="Details..."/>
                 </div>
                 <div id="newQuestMiddle">
                     <div id="newQuestDifficulty"></div>
@@ -41,6 +43,12 @@ class NewQuestView extends Component {
         //set newQuestText height
         let quest_height = this.initial_height*0.07;
         document.getElementById("newQuestTextImg").setAttribute("style", ("height:" + quest_height + "px; margin-top: 10px;"));
+        //set textareas' font size
+        let goals_font_size = this.initial_height*0.03;
+        //goal
+        document.getElementById("goalTextArea").setAttribute("style", ("font-size: " + goals_font_size + "px"));
+        //description
+        document.getElementById("detailsTextArea").setAttribute("style", ("font-size: " + goals_font_size + "px"));
     }
 }
 
