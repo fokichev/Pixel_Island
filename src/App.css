@@ -42,7 +42,29 @@ html, body, #root, .App, .App>div, .standardView{
   margin: 10px;
   overflow-x: auto;
   white-space: normal;
-  /*font-size: 0.85em;*/
+  text-align: left;
+  font-family: font_8bit;
+}
+
+.questCardLeft{
+  text-align: left;
+  float: left;
+  margin: auto 2%;
+  height: 100%;
+}
+
+.questCardTitle{
+  font-size: large;
+}
+
+.questCardDetails{
+  font-size: small;
+}
+
+.questCardRight{
+  text-align: right;
+  float: right;
+  margin: 3.5%;
 }
 
 #settingsDiv{
