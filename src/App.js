@@ -16,20 +16,40 @@ import NewQuestView from "./view_quests/NewQuestView";
 function App() {
     // constructor(props){}
     var storage = window.localStorage;
-    alert(window.localStorage.key(0));
+    if(storage.getItem("questsArray") === null){
+        storage.setItem("questsArray", "");
+        //alert("1st time");
+        //tutorial
+    }
+    else{
+        //welcome back
+        //alert("back");
+    }
     return (
         <div>
             <Router>
                 <NavigationView/>
                 <Switch>
-                    <Route path="/map" component={MapView}/>
-                    <Route path="/shop" component={ShopView}/>
-                    <Route path="/settings" component={SettingsView}/>
+                    <Route
+                        path="/map"
+                        render={(props) => <MapView storage={storage}/>}
+                    />
+                    <Route
+                        path="/shop"
+                        render={(props) => <ShopView storage={storage}/>}
+                    />
+                    <Route
+                        path="/settings"
+                        render={(props) => <SettingsView storage={storage}/>}
+                    />
                     <Route
                         path="/newQuest"
                         render={(props) => <NewQuestView storage={storage}/>}
                     />
-                    <Route path="/" component={QuestView}/>
+                    <Route
+                        path="/"
+                        render={(props) => <QuestView storage={storage}/>}
+                    />
                 </Switch>
             </Router>
 

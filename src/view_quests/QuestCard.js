@@ -10,9 +10,11 @@ class QuestCard extends Component {
         return (
             <div className="questCard">
                 <div className="questCardLeft">
+                    {/*read title and description from props*/}
                     {/*temporary for visual reference*/}
                     <div className="questCardTitle">Finish Essay</div>
                     <div className="questCardDetails">Due 27/04/20</div>
+                    {/*difficulty*/}
                 </div>
                 <div className="questCardRight"><Button init_height={this.props.initial_height} btn_src={btn_claim} btn_id="btn_claim" btn_action="card_claim" btn_size="0.055"/></div>
             </div>

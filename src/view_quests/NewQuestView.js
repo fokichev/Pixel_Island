@@ -44,11 +44,11 @@ class NewQuestView extends Component {
             });
         }
         else if (btn_action === "quest_delete"){
-            alert(this.storage.getItem("test"));
+            //alert(this.storage.getItem("test"));
             alert("delete");
         }
         else if (btn_action === "quest_create"){
-            alert("create");
+            this.createQuestEntry();
         }
         else{
             //do nothing
@@ -114,6 +114,29 @@ class NewQuestView extends Component {
 
             </div>
         );
+    }
+
+    createQuestEntry(){
+        //read json array into variable
+        var questsArray = [];
+        if(this.storage.getItem("questsArray") === ""){
+            //do nothing
+        }
+        else{
+            questsArray = JSON.parse(this.storage.getItem("questsArray"));
+        }
+        //append new quest
+        var quest_name = document.getElementById("goalTextArea").value;
+        var quest_details = document.getElementById("detailsTextArea").value;
+        var quest_diff = this.state.active_diff;
+        //make name and difficulty mandatory
+        if (!quest_name || quest_diff === "null"){
+            alert("Please enter the name and select the difficulty!");
+        }
+        else{
+            alert(quest_name + " " + quest_details + " " + quest_diff);
+        }
+        //overwrite array back into localStorage
     }
 
     componentWillMount() {
