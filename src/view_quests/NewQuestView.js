@@ -126,17 +126,22 @@ class NewQuestView extends Component {
             questsArray = JSON.parse(this.storage.getItem("questsArray"));
         }
         //append new quest
-        var quest_name = document.getElementById("goalTextArea").value;
-        var quest_details = document.getElementById("detailsTextArea").value;
-        var quest_diff = this.state.active_diff;
+        var questObject = {
+            quest_name: document.getElementById("goalTextArea").value,
+            quest_details: document.getElementById("detailsTextArea").value,
+            quest_diff: this.state.active_diff
+        }
         //make name and difficulty mandatory
-        if (!quest_name || quest_diff === "null"){
+        if (!questObject.quest_name || questObject.quest_diff === "null"){
             alert("Please enter the name and select the difficulty!");
         }
         else{
-            alert(quest_name + " " + quest_details + " " + quest_diff);
+            //alert(quest_name + " " + quest_details + " " + quest_diff);
+            //overwrite array back into localStorage
+            questsArray.push(questObject);
+            this.storage.setItem("questsArray", JSON.stringify(questsArray));
         }
-        //overwrite array back into localStorage
+
     }
 
     componentWillMount() {

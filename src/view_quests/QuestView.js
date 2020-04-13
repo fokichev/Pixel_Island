@@ -26,9 +26,11 @@ class QuestView extends Component {
         //read quests array from localstorage
         if(this.storage.getItem("questsArray") === ""){
             //do nothing
+            alert("helloooo");
         }
         else{
             questsArray = JSON.parse(this.storage.getItem("questsArray"));
+            alert("shits going down");
         }
 
         //var questsArray = JSON.parse(this.storage.getItem("questsArray"));
