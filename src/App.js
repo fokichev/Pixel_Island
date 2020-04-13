@@ -15,6 +15,8 @@ import NewQuestView from "./view_quests/NewQuestView";
 
 function App() {
     // constructor(props){}
+    var storage = window.localStorage;
+    alert(window.localStorage.key(0));
     return (
         <div>
             <Router>
@@ -23,7 +25,10 @@ function App() {
                     <Route path="/map" component={MapView}/>
                     <Route path="/shop" component={ShopView}/>
                     <Route path="/settings" component={SettingsView}/>
-                    <Route path="/newQuest" component={NewQuestView}/>
+                    <Route
+                        path="/newQuest"
+                        render={(props) => <NewQuestView storage={storage}/>}
+                    />
                     <Route path="/" component={QuestView}/>
                 </Switch>
             </Router>

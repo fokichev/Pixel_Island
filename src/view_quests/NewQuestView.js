@@ -20,6 +20,7 @@ import diff_hard_a from "../img/UI/difficulties/diff_hard_a.png";
 import btn_delete from "../img/UI/buttons/btn_delete.png";
 import btn_create from "../img/UI/buttons/btn_create.png";
 
+
 class NewQuestView extends Component {
     constructor(props) {
         super(props);
@@ -30,6 +31,11 @@ class NewQuestView extends Component {
         };
     }
 
+    //variables
+    initial_height;
+    storage = this.props.storage;
+
+
     handler(btn_action){
         // Button class changes parent class's state
         if (btn_action.includes("diff")){
@@ -38,6 +44,7 @@ class NewQuestView extends Component {
             });
         }
         else if (btn_action === "quest_delete"){
+            alert(this.storage.getItem("test"));
             alert("delete");
         }
         else if (btn_action === "quest_create"){
@@ -47,9 +54,6 @@ class NewQuestView extends Component {
             //do nothing
         }
     }
-
-    //variables
-    initial_height;
 
     render() {
         let btn_comp_trivial, btn_comp_easy, btn_comp_medium, btn_comp_hard;
