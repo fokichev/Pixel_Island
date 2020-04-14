@@ -73,7 +73,7 @@ class QuestView extends Component {
             return <div>
             {
                 questsArray.map((quest, i) =>
-                    <QuestCard initial_height = {this.initial_height} quest_name = {quest.quest_name} quest_details = {quest.quest_details} quest_diff = {quest.quest_diff}/>
+                    <QuestCard initial_height = {this.initial_height} quest_id = {quest.quest_id} quest_name = {quest.quest_name} quest_details = {quest.quest_details} quest_diff = {quest.quest_diff}/>
                 )
             }
             </div>;

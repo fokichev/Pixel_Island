@@ -16,8 +16,13 @@ import NewQuestView from "./view_quests/NewQuestView";
 function App() {
     // constructor(props){}
     var storage = window.localStorage;
+    //clear storage for debug
+    //storage.clear();
     if(storage.getItem("balance") === null){
         storage.setItem("balance", "0");
+    }
+    if(storage.getItem("questID") === null){
+        storage.setItem("questID", "0");
     }
     if(storage.getItem("questsArray") === null){
         storage.setItem("questsArray", "");

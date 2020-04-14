@@ -55,6 +55,10 @@ class ButtonWorld extends Component {
         else if(this.props.btn_action.includes("diff") || this.props.btn_action.includes("quest")){
             this.props.handler(this.props.btn_action);
         }
+        else if(this.props.btn_action === "card_claim"){
+            //alert("claim");
+            alert(this.props.quest_id);
+        }
     }
 
 }

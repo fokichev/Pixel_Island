@@ -41,7 +41,7 @@ class QuestCard extends Component {
                     <div className="questCardDetails">{this.props.quest_details}</div>
 
                 </div>
-                <div className="questCardRight"><Button init_height={this.props.initial_height} btn_src={btn_claim} btn_id="btn_claim" btn_action="card_claim" btn_size="0.055"/></div>
+                <div className="questCardRight"><Button init_height={this.props.initial_height} btn_src={btn_claim} btn_id="btn_claim" btn_action="card_claim" btn_size="0.055" quest_id = {this.props.quest_id}/></div>
             </div>
         );
     }
