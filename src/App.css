@@ -50,6 +50,12 @@ html, body, #root, .App, .App>div, .standardView{
   font-family: font_8bit;
 }
 
+#questsEmpty{
+  font-family: font_8bit;
+  font-size: larger;
+  color: #8f5f32;
+}
+
 .questCard{
   background-color: #F8F2EC;
   border: 8px solid transparent;

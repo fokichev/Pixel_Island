@@ -61,14 +61,12 @@ class QuestView extends Component {
     }
 
     loadCards(){
-        var questsArray = [];
+        var questsArray = JSON.parse(this.storage.getItem("questsArray"));
         //read quests array from localstorage
-        if(this.storage.getItem("questsArray") === ""){
-            //todo: return "create a quest!"
-            //alert("first launch");
+        if(this.storage.getItem("questsArray") === "" || questsArray.length === 0){
+            return <div id="questsEmpty">Create some quests! Use the "+" button below.</div>;
         }
         else{
-            questsArray = JSON.parse(this.storage.getItem("questsArray"));
             {/*iterate through quests array to create cards*/}
             return <div>
             {
