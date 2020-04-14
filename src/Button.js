@@ -57,7 +57,43 @@ class ButtonWorld extends Component {
         }
         else if(this.props.btn_action === "card_claim"){
             //alert("claim");
-            alert(this.props.quest_id);
+            //alert(this.props.quest_id);
+            //pull quest array
+            var storage = window.localStorage;
+            var questsArray = JSON.parse(storage.getItem("questsArray"));
+            //pull card in question
+            var questCard;
+            var i;
+            for (i=0; i < questsArray.length; i++){
+                if(questsArray[i].quest_id === this.props.quest_id){
+                    questCard = questsArray[i];
+                }
+            }
+            //update balance
+            var quest_reward;
+                switch(questCard.quest_diff){
+                    case "diff_trivial":
+                        quest_reward = 10;
+                        break;
+                    case "diff_easy":
+                        quest_reward = 50;
+                        break;
+                    case "diff_medium":
+                        quest_reward = 100;
+                        break;
+                    case "diff_hard":
+                        quest_reward = 200;
+                        break;
+                }
+            var balance = parseInt(storage.getItem("balance"));
+            balance = balance + quest_reward;
+            storage.setItem("balance", balance.toString());
+            //delete array specified by ID
+
+            //push array back to localStorage
+
+            //update screen if needed?
+            this.props.history.push("/");
         }
     }
 

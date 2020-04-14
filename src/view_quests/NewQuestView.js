@@ -1,7 +1,4 @@
 import React, {Component} from 'react';
-import {
-    Link
-} from "react-router-dom";
 import {withRouter} from "react-router-dom";
 import '../App.css';
 
@@ -45,7 +42,6 @@ class NewQuestView extends Component {
             });
         }
         else if (btn_action === "quest_delete"){
-            //alert(this.storage.getItem("test"));
             alert("delete");
         }
         else if (btn_action === "quest_create"){
@@ -142,7 +138,6 @@ class NewQuestView extends Component {
             alert("Please enter the name and select the difficulty!");
         }
         else{
-            //alert(quest_name + " " + quest_details + " " + quest_diff);
             //overwrite array back into localStorage
             questsArray.push(questObject);
             this.storage.setItem("questsArray", JSON.stringify(questsArray));
