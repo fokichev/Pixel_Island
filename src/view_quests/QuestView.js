@@ -21,35 +21,13 @@ class QuestView extends Component {
     storage = this.props.storage;
 
     render(){
-        //alert(JSON.parse(this.storage.getItem("questsArray")));
-        var questsArray = [];
-        //read quests array from localstorage
-        if(this.storage.getItem("questsArray") === ""){
-            //do nothing
-            alert("helloooo");
-        }
-        else{
-            questsArray = JSON.parse(this.storage.getItem("questsArray"));
-            //alert("shits going down");
-        }
-
-        //var questsArray = JSON.parse(this.storage.getItem("questsArray"));
-        // if (questsArray.length < 1){
-        //     em
-        // }
-        //alert(questsArray.length);
-
-
-
         return (
             <div id="questView">
                 <div style={{backgroundColor: "#D8A26F"}}>
                     <img id="questTextImg" src={quests_text}/>
-                    {/*<img id="btnSettings" src={btn_settings} style={{selfAlign: "right"}}/>*/}
                     {/*<Button init_height={this.initial_height} btn_src={btn_settings} btn_id="btn_settings" btn_action="/settings" btn_size="m"/>*/}
                     <div id="questCards" style={{height: this.initial_height*0.72 + "px", overflow: "scroll"}}>
-                        {/*iterate through quests array to create cards*/}
-                        <QuestCard initial_height = {this.initial_height}/>
+                        {this.loadCards()}
                     </div>
                 </div>
             </div>
@@ -69,6 +47,26 @@ class QuestView extends Component {
         //set questText height
         let quest_height = this.initial_height*0.07;
         document.getElementById("questTextImg").setAttribute("style", ("height:" + quest_height + "px; margin-top: 10px;"));
+    }
+
+    loadCards(){
+        var questsArray = [];
+        //read quests array from localstorage
+        if(this.storage.getItem("questsArray") === ""){
+            //todo: return "create a quest!"
+            //alert("first launch");
+        }
+        else{
+            questsArray = JSON.parse(this.storage.getItem("questsArray"));
+            {/*iterate through quests array to create cards*/}
+            return <div>
+            {
+                questsArray.map((quest, i) =>
+                    <QuestCard initial_height = {this.initial_height} quest_name = {quest.quest_name} quest_details = {quest.quest_details} quest_diff = {quest.quest_diff}/>
+                )
+            }
+            </div>;
+        }
     }
 }
 
