@@ -66,9 +66,14 @@ class ButtonWorld extends Component {
             var i;
             for (i=0; i < questsArray.length; i++){
                 if(questsArray[i].quest_id === this.props.quest_id){
+                    //temporarily copy item for later use
                     questCard = questsArray[i];
+                    //delete array item specified by ID
+                    questsArray.splice(i, 1);
                 }
             }
+            //push array back to localStorage
+            storage.setItem("questsArray", JSON.stringify(questsArray));
             //update balance
             var quest_reward;
                 switch(questCard.quest_diff){
@@ -88,11 +93,7 @@ class ButtonWorld extends Component {
             var balance = parseInt(storage.getItem("balance"));
             balance = balance + quest_reward;
             storage.setItem("balance", balance.toString());
-            //delete array specified by ID
-
-            //push array back to localStorage
-
-            //update screen if needed?
+            //update screen
             this.props.history.push("/");
         }
     }
