@@ -12,16 +12,16 @@ class ButtonWorld extends Component {
 
     render(){
         this.btn_height = this.props.init_height;
-        if(this.props.btn_size == "l"){
+        if(this.props.btn_size === "l"){
             this.btn_height = this.btn_height*0.12;
         }
-        else if(this.props.btn_size == "m"){
+        else if(this.props.btn_size === "m"){
             this.btn_height = this.btn_height*0.07;
         }
-        else if(this.props.btn_size == "s"){
+        else if(this.props.btn_size === "s"){
             this.btn_height = this.btn_height*0.04;
         }
-        else if(this.props.btn_size == "d"){
+        else if(this.props.btn_size === "d"){
             this.btn_height = this.btn_height*0.1
         }
         else{

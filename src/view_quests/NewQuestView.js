@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {
     Link
 } from "react-router-dom";
+import {withRouter} from "react-router-dom";
 import '../App.css';
 
 //components
@@ -140,6 +141,7 @@ class NewQuestView extends Component {
             //overwrite array back into localStorage
             questsArray.push(questObject);
             this.storage.setItem("questsArray", JSON.stringify(questsArray));
+            this.props.history.push("/");
         }
 
     }
@@ -163,4 +165,4 @@ class NewQuestView extends Component {
     }
 }
 
-export default NewQuestView;
+export default withRouter(NewQuestView);

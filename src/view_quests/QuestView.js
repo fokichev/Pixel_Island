@@ -30,7 +30,7 @@ class QuestView extends Component {
         }
         else{
             questsArray = JSON.parse(this.storage.getItem("questsArray"));
-            alert("shits going down");
+            //alert("shits going down");
         }
 
         //var questsArray = JSON.parse(this.storage.getItem("questsArray"));
