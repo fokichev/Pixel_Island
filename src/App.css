@@ -35,6 +35,21 @@ html, body, #root, .App, .App>div, .standardView{
   text-align: center;
 }
 
+#questHeader{
+
+}
+
+#questTextImg{
+  float: left;
+  margin: 0 5%;
+}
+
+#questBalance{
+  float: right;
+  margin: 5%;
+  font-family: font_8bit;
+}
+
 .questCard{
   background-color: #F8F2EC;
   border: 8px solid transparent;

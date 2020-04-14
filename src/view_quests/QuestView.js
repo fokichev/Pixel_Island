@@ -8,6 +8,7 @@ import QuestCard from "./QuestCard";
 import Button from "../Button";
 //import files
 import quests_text from "../img/UI/quests_text.png";
+import balance_coin from "../img/UI/balance_coin.png";
 import btn_settings from "../img/UI/buttons/btn_settings.png";
 
 class QuestView extends Component {
@@ -21,12 +22,22 @@ class QuestView extends Component {
     storage = this.props.storage;
 
     render(){
+        var balance = parseInt(this.storage.getItem("balance"));
         return (
             <div id="questView">
                 <div style={{backgroundColor: "#D8A26F"}}>
-                    <img id="questTextImg" src={quests_text}/>
+                    <div id="questHeader">
+                        <img id="questTextImg" src={quests_text}/>
+                        <span id="questBalance">
+                            {balance}
+                            <img id="balanceCoin" src={balance_coin}/>
+                        </span>
+                    </div>
+
+
+
                     {/*<Button init_height={this.initial_height} btn_src={btn_settings} btn_id="btn_settings" btn_action="/settings" btn_size="m"/>*/}
-                    <div id="questCards" style={{height: this.initial_height*0.72 + "px", overflow: "scroll"}}>
+                    <div id="questCards" style={{height: this.initial_height*0.72 + "px", overflow: "scroll", clear: "both"}}>
                         {this.loadCards()}
                     </div>
                 </div>
