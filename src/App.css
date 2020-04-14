@@ -180,66 +180,39 @@ html, body, #root, .App, .App>div, .standardView{
 }
 /*** END NEW QUEST VIEW ***/
 
+
 /*** MAP VIEW ***/
 #mapView{
-  background-color: aquamarine;
+  border: 8px solid transparent;
+  border-image: url(img/UI/todo-border.png) 32 stretch;
+  background-color: #8F5F32;
+  font-family: font_8bit;
+  font-size: large;
 }
-/*** END MAP VIEW ***/
+
+#mapStart{
+  background-color: #d8a26f;
+}
+
+#mapTop{
+
+}
+
+/*#mapDemos{*/
+/*  overflow: auto;*/
+/*  white-space: nowrap;*/
+/*}*/
+
+/*#mapDemos img{*/
+/*  display: inline-block;*/
+/*}*/
+
+#mapBottom{
+  font-size: medium;
+}
 
 /*** SHOP VIEW ***/
 
 
 /*** END SHOP VIEW ***/
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-*/
