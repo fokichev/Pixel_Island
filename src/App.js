@@ -8,7 +8,7 @@ import {
 import './App.css';
 import NavigationView from "./NavigationView";
 import QuestView from './view_quests/QuestView.js';
-import MapView from './view_map/MapView';
+import MapView from './map/MapView';
 import ShopView from "./view_shop/ShopView";
 import SettingsView from "./view_quests/SettingsView";
 import NewQuestView from "./view_quests/NewQuestView";
