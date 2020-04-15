@@ -10,7 +10,6 @@ import Button from "../Button";
 import quests_text from "../img/UI/quests_text.png";
 import balance_coin from "../img/UI/balance_coin.png";
 import btn_settings from "../img/UI/buttons/btn_settings.png";
-import poster_img from "../img/UI/demos/1.jpg";
 
 class QuestView extends Component {
     constructor(props){

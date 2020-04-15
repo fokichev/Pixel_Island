@@ -42,7 +42,6 @@ class ButtonWorld extends Component {
         if(this.props.btn_action.charAt(0) === "/") {
             //change current view
             this.props.history.push(this.props.btn_action);
-            alert(window.location.pathname);
             //set nav state to button id
             this.props.handler(this.props.btn_id);
 

@@ -192,27 +192,45 @@ html, body, #root, .App, .App>div, .standardView{
 
 #mapStart{
   background-color: #d8a26f;
+  text-align: center;
+  padding: 10px;
 }
 
 #mapTop{
 
 }
 
-/*#mapDemos{*/
-/*  overflow: auto;*/
-/*  white-space: nowrap;*/
-/*}*/
-
-/*#mapDemos img{*/
-/*  display: inline-block;*/
-/*}*/
-
 #mapBottom{
   font-size: medium;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /*** SHOP VIEW ***/
 
+#shopView{
+  border: 8px solid transparent;
+  border-image: url(img/UI/todo-border.png) 32 stretch;
+  background-color: #8F5F32;
+  font-family: font_8bit;
+  font-size: large;
+}
+
+#shopStart{
+  background-color: #d8a26f;
+  text-align: center;
+  padding: 10px;
+}
+
+#shopTop{
+
+}
+
+#shopBottom{
+  font-size: medium;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 /*** END SHOP VIEW ***/
 

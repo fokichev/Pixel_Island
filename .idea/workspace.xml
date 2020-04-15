@@ -2,31 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="449ef448-a806-4847-abef-2e053e0eb2c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/map/quests_text.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/precache-manifest.d1a12890c69a8b41da3eeeced6413cf2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/static/js/main.94523f25.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/static/js/main.94523f25.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/UI/dialog2_twiggy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/UI/house.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/UI/shop_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/UI/under_construction.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/UI/under_construction_tommy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/static/css/main.3006c16d.chunk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/static/css/main.3006c16d.chunk.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/static/js/2.2019b4a8.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/static/js/2.2019b4a8.chunk.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/static/js/2.2019b4a8.chunk.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/robots.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/precache-manifest.c0f6fc4848d601331b4b4630bc95e01a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/precache-manifest.49b56d7ae7f211fa685dc36a29e35a5f.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/main.cc829c19.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/main.cc829c19.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view_map/MapView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/map/MapView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view_map/poster.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/map/poster.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/css/main.e8a47f2a.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/css/main.e8a47f2a.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/2.7712809a.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/2.7712809a.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/2.7712809a.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/main.ce021b68.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/js/main.ce021b68.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/static/media/1.9483d2f8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/UI/demos/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/UI/demos/poster.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/UI/demos/poster_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/UI/demos/poster_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/map/MapView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/map/MapView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view_quests/QuestView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view_quests/QuestView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view_shop/ShopView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view_shop/ShopView.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/precache-manifest.c0f6fc4848d601331b4b4630bc95e01a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/precache-manifest.49b56d7ae7f211fa685dc36a29e35a5f.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/www/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/static/js/main.cc829c19.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/static/js/main.cc829c19.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/css/main.e8a47f2a.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/css/main.e8a47f2a.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/js/2.7712809a.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/js/2.7712809a.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/js/2.7712809a.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/js/main.ce021b68.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/js/main.ce021b68.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/media/1.9483d2f8.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,22 +189,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585253710941" />
-    <state width="1899" height="272" key="GridCell.Tab.0.bottom" timestamp="1586913435829">
+    <state width="1899" height="272" key="GridCell.Tab.0.bottom" timestamp="1586981212308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586913435829" />
-    <state width="1899" height="272" key="GridCell.Tab.0.center" timestamp="1586913435829">
+    <state width="1899" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586981212308" />
+    <state width="1899" height="272" key="GridCell.Tab.0.center" timestamp="1586981212308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="272" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586913435829" />
-    <state width="1899" height="272" key="GridCell.Tab.0.left" timestamp="1586913435829">
+    <state width="1899" height="272" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586981212308" />
+    <state width="1899" height="272" key="GridCell.Tab.0.left" timestamp="1586981212308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="272" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586913435829" />
-    <state width="1899" height="272" key="GridCell.Tab.0.right" timestamp="1586913435829">
+    <state width="1899" height="272" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586981212308" />
+    <state width="1899" height="272" key="GridCell.Tab.0.right" timestamp="1586981212308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586913435829" />
+    <state width="1899" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586981212308" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1585079199352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
