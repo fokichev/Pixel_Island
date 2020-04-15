@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import '../App.css';
 
 //import files
-import poster from "../img/UI/demos/poster.png";
+import img_poster from "file:///map/src/view_map/poster.png";
 // import img_1 from "../img/UI/demos/1.PNG";
 // import img_2 from "../img/UI/demos/2.PNG";
 // import img_3 from "../img/UI/demos/3.PNG";
@@ -19,7 +19,7 @@ class MapView extends Component {
         return (
             <div className="standardView">
                 <div id="mapView">
-                    <img src={"../../"} style={{height: "300px", width: "200px"}}/>
+                    <img src={img_poster} style={{height: "300px", width: "200px"}}/>
                     <div id="mapStart">
                         <div id="mapTop">
                             This app is an early prototype! Map coming in the future.
