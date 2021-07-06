@@ -41,7 +41,7 @@ https://user-images.githubusercontent.com/54813973/124647300-af6f6400-de8d-11eb-
 
 # Map and Shop Concepts:
 <br/>
-<img src="https://user-images.githubusercontent.com/54813973/124657738-ce282780-de9a-11eb-9213-9f4899b4e291.jpg" height="450">
+<img src="https://user-images.githubusercontent.com/54813973/124657738-ce282780-de9a-11eb-9213-9f4899b4e291.jpg">
 
 # Island Concept:
 ![island_layout](https://user-images.githubusercontent.com/54813973/124658267-763df080-de9b-11eb-9a5e-e3bca47e558a.png)
