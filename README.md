@@ -1,3 +1,5 @@
+### Please scroll down for demos and screenshots!
+
 # "Pixel Island" with Cordova and ReactJS
  
 This application was created as part of a BCs Computer Science Dissertation at Keele University. 
